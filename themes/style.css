@@ -1734,6 +1734,7 @@ SIDEBARS
 /*SIDEBARS WIDGETS CONTENT*/
 .sidebar .widget-content{
                     background-color: rgba(211,236,235,0.93);    border-top: 1px solid ;    border-right: 1px solid ;    border-bottom: 1px solid ;    border-left: 1px solid ;    border-radius: 5px 5px 5px 5px;
+border-style:ridge;border-width:4px;border-color:white;border-radius:10px
 }
 /*SIDEBARS TITLES*/
 .sidebar .media-heading{
@@ -2736,6 +2737,7 @@ SIDEBARS
 /*SIDEBARS WIDGETS CONTENT*/
 .sidebar .widget-content{
                     background-color: rgba(211,236,235,0.93);    border-top: 1px solid ;    border-right: 1px solid ;    border-bottom: 1px solid ;    border-left: 1px solid ;    border-radius: 5px 5px 5px 5px;
+border-style:ridge;border-width:4px;border-color:white;border-radius:10px
 }
 /*SIDEBARS TITLES*/
 .sidebar .media-heading{
@@ -3815,6 +3817,7 @@ SIDEBARS
 .sidebar .widget-content{
    /* padding: 21.323208041958px;  */              background-color: rgba(211,236,235,0.93);    border-top: 1px solid ;    border-right: 1px solid ;    border-bottom: 1px solid ; 
     border-left: 1px solid ;    border-radius: 5px 5px 5px 5px;
+	border-style:ridge;border-width:4px;border-color:white;border-radius:10px;
     position:absolute;
     position:fixed;margin-left:-4%;width:18%;
     -webkit-filter: drop-shadow(8px 8px 10px  rgba(100,100,100,0.45)); /* Safari */
