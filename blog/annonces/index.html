@@ -26,21 +26,28 @@
     <link href="https://leforestenvironnement.github.io/Lefenvt.com/themes/style.css"
       rel="stylesheet">
     <style type="text/css">
-    
-  
-      
 div {
   font-size: 1em;
 }
-     
+
 span {
   font-size: 0.7em;
   line-height: 0.2em;
   font-weight: normal;
   font-style: normal;
-  font-variant: normal;
+  font-variant-alternates: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-variant-position: normal;
   text-transform: none;
-  text-decoration: none;
+  -webkit-text-decoration-color: currentcolor;
+  text-decoration-color: currentcolor;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  -webkit-text-decoration-style: solid;
+  text-decoration-style: solid;
   text-align: left;
   direction: ltr;
 }
@@ -52,34 +59,78 @@ span:hover {
 .media-body {
   height: auto;
 }
-    audio{background-color: rgba(255,0,0,0);width:95%;height:40px;
-      border-width:3px;border-color:yellow; border-style:ridge;
-      -moz-border-radius:20px;
-  -webkit-border-radius:20px;
-       border-radius:20px;
-    }      
- 
-      
-html, body {
-  background: rgba(0, 0, 0, 0) radial-gradient(circle, #eff5f0 37%, #becdbb 100%) repeat scroll 0% 0%;
-  padding-top: 60px;
-        padding-bottom: 40px;
+
+audio {
+  background-color: rgba(255, 0, 0, 0);
+  width: 95%;
+  height: 40px;
+  border-top-width: 3px;
+  border-right-width: 3px;
+  border-bottom-width: 3px;
+  border-left-width: 3px;
+  border-top-color: yellow;
+  border-right-color: yellow;
+  border-bottom-color: yellow;
+  border-left-color: yellow;
+  border-top-style: ridge;
+  border-right-style: ridge;
+  border-bottom-style: ridge;
+  border-left-style: ridge;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
-.navbar-toggler {color:blue;
-  background-color:yellow}
+
+html, body {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: radial-gradient(circle, #eff5f0 37%, #becdbb 100%);
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto auto;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.navbar-toggler {
+  color: blue;
+  background-color: yellow;
+}
+
 .contenu {
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
   white-space: nowrap;
 }
-      .nav-link{color:beige}
-        .nav-link:hover{color:red}
-      @media (max-width: 992px) {
-navbar-nav {color:blue;float:right;
-}}
 
+.nav-link {
+  color: beige;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+@media (max-width: 992px) {
+  navbar-nav {
+    color: blue;
+    float: right;
+  }
+}
 
 .scrolling {
-  animation: 20s linear 0s normal none infinite running marquee;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-name: marquee;
   display: inline-block;
   padding-right: 10px;
 }
@@ -96,83 +147,172 @@ a {
 #BG_1662736897248_13723 {
   font-size: 2rem !important;
 }
+
 .dropdown-menu {
-  background-color: #3F6538;
+  background-color: #3f6538;
   color: white;
   font-weight: bold;
-  border-style:solid;border-radius:15px;
- 
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
-      .dropdown{color:white}
+
+.dropdown {
+  color: white;
+}
+
 .dropdown-item {
-  background-color: tansparent!important;
-  color: white;!important;
+  color: white;
   font-size: 1rem !important;
 }
+
 .nav-item {
-  background-color: tansparent;
-  color: white;!important;
+  color: white;
   font-size: 1rem !important;
 }
+
 .titre {
-  font-size:calc(1.525rem + 3.3vw);
+  font-size: calc(1.525rem + 3.3vw);
 }
-      @media (max-width: 932px) {
+
+@media (max-width: 932px) {
   .titre {
     font-size: 2rem;
   }
 }
-      .titre2 {
-  font-size:calc(1.225rem + 1vw);
+
+.titre2 {
+  font-size: calc(1.225rem + 1vw);
 }
-      @media (max-width: 932px) {
+
+@media (max-width: 932px) {
   .titre2 {
     font-size: 2rem;
   }
-        .card-text{ font-size: 0.75rem;}
-}
-      .drop_ombre{
-     -webkit-filter: drop-shadow(8px 8px 10px  rgba(100,100,100,0.45)); /* Safari */
-    filter: drop-shadow(20px 15px 10px  rgba(100,100,100,0.45));
-}
-     
-         .fixed-header, .fixed-footer{
-        width: 100%;
-        position: fixed; z-index:10;       
-        background-image: linear-gradient(to right, #144a19, #1b4e1d, #215221, #275625, #2d5a29, #305c2d, #335f31, #366135, #37623a, #39633e, #3b6343, #3d6447);
-        padding: 0px 0;
-        color: #fff;
-    }
-    .fixed-header{
-        top: 0;
-    }
-    .fixed-footer{
-        bottom: 0;
-    }
 
-      .media-body{width:100%}
-      .content .view .items-container .item-blog{
-    padding: 0;
-    background-color: transparent;
-    border: none;
-    
-        width: calc(25% - 15px);
-    margin: 0 5px; /*Les marges entre les blocs*/
-    border-style:solid;border-color:black;border-width:1px;
-   
+  .card-text {
+    font-size: 0.75rem;
+  }
 }
-      
-      @media (max-width: 979px){
-.content .view .items-container .item-blog{
-    padding: 0;
+
+.drop_ombre {
+  filter: drop-shadow(20px 15px 10px rgba(100, 100, 100, 0.45));
+}
+
+.fixed-header, .fixed-footer {
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  background-image: linear-gradient(to right, #144a19, #1b4e1d, #215221, #275625, #2d5a29, #305c2d, #335f31, #366135, #37623a, #39633e, #3b6343, #3d6447);
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  color: white;
+}
+
+.fixed-header {
+  top: 0px;
+}
+
+.fixed-footer {
+  bottom: 0px;
+}
+
+.media-body {
+  width: 100%;
+  line-height: 0px !important;
+}
+
+.content .view .items-container .item-blog {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  background-color: transparent;
+  -moz-border-top-colors: none;
+  border-top-colors: none;
+  -moz-border-right-colors: none;
+  border-right-colors: none;
+  -moz-border-bottom-colors: none;
+  border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  border-left-colors: none;
+  border-image-source: none;
+  border-image-slice: 100% 100% 100% 100%;
+  border-image-width: 1 1 1 1;
+  border-image-outset: 0 0 0 0;
+  border-image-repeat: stretch stretch;
+  width: calc(25% - 15px);
+  margin-top: 0px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+  margin-left: 5px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: black;
+  border-right-color: black;
+  border-bottom-color: black;
+  border-left-color: black;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+}
+
+@media (max-width: 979px) {
+  .content .view .items-container .item-blog {
     background-color: transparent;
-    border: none;
-    width:100%;  height:100%;  padding: 5px;margin-top:20px;
-  display:block;}}
-      section{ width:120%;height:150%}
-      
-      @media (max-width: 979px){section{width:100%} }
-      
+    border-top-width: medium;
+    border-right-width: medium;
+    border-bottom-width: medium;
+    border-left-width: medium;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image-source: none;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-width: 1 1 1 1;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    width: 100%;
+    height: 100%;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin-top: 20px;
+    display: block;
+  }
+}
+
+section {
+  width: 120%;
+  height: 150%;
+}
+
+@media (max-width: 979px) {
+  section {
+    width: 100%;
+  }
+}
+
 </style></head>
   <body>
     <div class="fixed-header"> <a href="https://leforestenvironnement.github.io/fichiers.com/index.html"
@@ -195,14 +335,14 @@ a {
           <div class="view view-blog" id="view-category" data-category="annonces">
             <div class="introduction clearfix"> </div>
             <div class="items-container" style="height:auto">
-               <div style="text-align: center;"><!--******************************* --><b>
+              <div style="text-align: center;"><!--******************************* --><b>
                   <span style="font-family: Tlwg Typewriter;"><span style="color: #3333ff;">
                     </span> </span><span style="font-family: Tlwg Typewriter;"><span
                       style="color: #3333ff;"></span><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
                       dir="auto"> </span></span> </b></div>
               <div class="item item-blog media" data-category="annonces" style="min-height:660px;width:600px">
                 <div style="text-align: center;"><b> </b></div>
-                <div class="media-body" style="margin-top: 28px; height: 832px;">
+                <div class="media-body" style="margin-top: 28px; height: 832px; line-height: normal !important;">
                   <div style="text-align: center;"><b><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
                         dir="auto" style="font-family: serif;"><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
                           dir="auto">
@@ -228,7 +368,15 @@ a {
                       du château</i>)</div>
                   <div class="a3s aiL ">&nbsp;L'opération consiste à semer et
                     ratisser.</div>
-                  <br>
+                  <div class="a3s aiL " style="text-align: left;">
+                    <h2><span style="color: #009900;"><i><span style="font-family: Garamond;">Important</span></i></span></h2>
+                    <h3><span style="color: #009900;"><i><span style="font-family: Garamond;">N'oubliez
+                            pas&nbsp; de venir avec votre rateau.</span></i></span></h3>
+                    <h3><span style="color: #009900;"><span style="font-family: Garamond;"><i>Les
+                            abeilles et les insectes pollinisateurs vous
+                            remercient d'avance.......</i><br>
+                        </span></span></h3>
+                  </div>
                   &nbsp; <span style="color: red;background-color: white;font-size:0.75em">28
                     mai 2023</span>
                   <div class="clearfix"> <a href="https://leforestenvironnement.github.io/annonces.com/blog/annonces/onu.html"
@@ -237,7 +385,7 @@ a {
                 </div>
               </div>
               <!-- ****************************** -->
-               <!--******************************* --><b> <span style="font-family: Tlwg Typewriter;"><span
+              <!--******************************* --><b> <span style="font-family: Tlwg Typewriter;"><span
                     style="color: #3333ff;"> </span> </span><span style="font-family: Tlwg Typewriter;"><span
                     style="color: #3333ff;"></span><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
                     dir="auto"> </span></span> </b>
@@ -248,7 +396,7 @@ a {
                       dir="auto" style="font-family: serif;"><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
                         dir="auto">
                         <p> </p>
-                      </span></span></b><img src="https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/345452909_920404902395907_251173442550225168_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=OZ1pmcY9YDAAX9hkZu_&_nc_ht=scontent-cdg4-3.xx&oh=00_AfCNVNsAl1C-lmcu16WKbTB6OVGh-wkovjCIp9op0YcWjA&oe=6477A5C6"
+                      </span></span></b><img src="https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/345452909_920404902395907_251173442550225168_n.jpg?_nc_cat=104&amp;ccb=1-7&amp;_nc_sid=5cd70e&amp;_nc_ohc=OZ1pmcY9YDAAX9hkZu_&amp;_nc_ht=scontent-cdg4-3.xx&amp;oh=00_AfCNVNsAl1C-lmcu16WKbTB6OVGh-wkovjCIp9op0YcWjA&amp;oe=6477A5C6"
                     alt=""><br>
                   <span style="color: red;background-color: white;font-size:0.75em">10
                     mai 2023</span>
@@ -258,12 +406,12 @@ a {
                 </div>
               </div>
               <!-- ****************************** -->
-                  <!--******************************* --><b> <span style="font-family: Tlwg Typewriter;"><span
+              <!--******************************* --><b> <span style="font-family: Tlwg Typewriter;"><span
                     style="color: #3333ff;"> </span> </span><span style="font-family: Tlwg Typewriter;"><span
                     style="color: #3333ff;"></span><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
                     dir="auto"> </span></span> </b>
               <div class="item item-blog media" data-category="annonces" style="min-height:700px;width:600px"><b>
-                </b> 
+                </b>
                 <div class="media-body" style="margin-top: 37px; height: 1500px;"><b><span
                       class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
                       dir="auto" style="font-family: serif;"><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
@@ -350,16 +498,14 @@ a {
                 </div>
               </div>
               <!-- ****************************** -->
-
-                 <!-- ****************************** -->&nbsp;
+              <!-- ****************************** -->&nbsp;
               <div class="item item-blog media" data-category="annonces" style="min-height:700px;width:400px">
                 <div class="media-body" style="margin-top: -10px">
                   <h2 style="  margin-bottom: 0cm"><em><strong>Guide du déchet
                         vert<br>
                       </strong></em></h2>
                   <div style="text-align: center; height: 671px;"><a href="https://heyzine.com/flip-book/7d95e4a530.html"
-                      target="_BLANK" class="heyzine-link fp-link"><img
-                        src="https://cdnc.heyzine.com/flip-book/cover-play/10/7d95e4a530.jpg"
+                      target="_BLANK" class="heyzine-link fp-link"><img src="https://cdnc.heyzine.com/flip-book/cover-play/10/7d95e4a530.jpg"
                         class="fp-thumb-play" style="border: 1px solid lightgray; box-shadow: lightgray 0px 0px 4px 1px;"></a><span
                       style="color: #d90d1f;">Mars 2023</span><br>
                   </div>
@@ -386,7 +532,7 @@ a {
                 </div>
               </div>
               <!-- ****************************** -->
-                 <!-- ****************************** -->
+              <!-- ****************************** -->
               <div class="item item-blog media" data-category="annonces" style="min-height:450px;width:400px">
                 <div class="media-body" style="margin-top: -10px">
                   <h2 style="  margin-bottom: 0cm"><em><strong>Nettoyage du
@@ -402,8 +548,7 @@ a {
                 </div>
               </div>
               <!-- ****************************** -->
-
-                <!-- ****************************** -->
+              <!-- ****************************** -->
               <div class="item item-blog media" data-category="annonces" style="min-height:400px;width:400px">
                 <div class="media-body" style="margin-top: -10px;">
                   <h2 style="  margin-bottom: 0cm"><em><strong>Assemblée
@@ -417,7 +562,7 @@ a {
                 </div>
               </div>
               <!-- ****************************** -->
-            <!-- ****************************** -->
+              <!-- ****************************** -->
               <div class="item item-blog media" data-category="annonces" style="">
                 <div class="media-body" style="margin-top: -10px;"> <a href="https://collectif-accad.fr/site/">RENCONTRE
                     DEBAT<img src="https://collectif-accad.fr/site/wp-content/uploads/2023/02/Ondes-et-numerique-1.jpg"
@@ -429,8 +574,8 @@ a {
                   <div style="text-align: left;">
                     <pre style="   word-break: normal; margin-top: 18px;"> Les avantages, mais aussi les dangers de la 5G sont réels </pre>
                     <h6 style="  word-break: normal; margin-top: 18px;">VENDREDI
-                      3 MARS 2023 - 19h &gt; 21h Mairie – Place du 8
-                      mai - 62136 LESTREM entrée libre </h6>
+                      3 MARS 2023 - 19h &gt; 21h Mairie – Place du 8 mai - 62136
+                      LESTREM entrée libre </h6>
                     <h6 style="  word-break: normal; margin-top: 18px;">SAMEDI 4
                       MARS 2023 - 15h &gt; 17h Café-citoyen les Sarrazins -
                       52-54 rue des Sarrazins - 59000 LILLE </h6>
@@ -737,7 +882,7 @@ documentaire.</pre>
                   <div class="clearfix"> <iframe style="width:400px;height:250px"
                       src="https://online.fliphtml5.com/gvflu/kqzg/" seamless="seamless"
                       scrolling="no" allowtransparency="true" allowfullscreen="true"
-                      frameborder="0">&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;br&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+                      frameborder="0">&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;br&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
                       </iframe><span style="color: red;background-color: white;font-size:0.75em">
                     </span></div>
                   <div class="clearfix"><span style="color: red;background-color: white;font-size:0.75em">3
