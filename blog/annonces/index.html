@@ -5,7 +5,7 @@
     <title>annonces</title>
     <link rel="alternate" type="application/rss+xml" href="https://leforestenvironnement.github.io/annonces.com/blog/do/rss.xml">
     <meta name="description" content="">
-    <link rel="image_src" href="https://leforestenvironnement.github.io/annonces.com/medias/images/logo-levert-1.png">
+    <link rel="image_src" href="../../medias/images/logo-levert-1.png">
     <meta property="og:image" content="//medias/images/logo-levert-1.png">
     <link rel="canonical" href="index.html">
     <meta name="generator" content="e-monsite (e-monsite.com)">
@@ -15,19 +15,20 @@
     <link rel="icon" href="https://leforestenvironnement.github.io/annonces.com/medias/site/favicon/symbole-abeille.png">
     <link href="https://fonts.googleapis.com/css?family=Kalam:300,400,700&amp;display=swap"
       rel="stylesheet">
-    <link href="https://leforestenvironnement.github.io/annonces.com/themes/combined.css%3Fv=6_1591878887_2947.css"
-      rel="stylesheet">
-    <script src="https://leforestenvironnement.github.io/annonces.com/themes/combined.js%3Fv=6_1591878887_2947"></script>
+    <link href="../../themes/combined.css%3Fv=6_1591878887_2947.css" rel="stylesheet">
+    <script src="../../themes/combined.js%3Fv=6_1591878887_2947"></script>
     <link href="https://leforestenvironnement.github.io/Lefenvt.com/themes/fullscreen.css"
       rel="stylesheet">
     <script src="https://leforestenvironnement.github.io/Lefenvt.com/themes/fullscreen.js"></script>
-    <script src="https://leforestenvironnement.github.io/annonces.com/medias/static/jqueryCuttr/jquery.cookie.js"></script>
-    <script src="https://leforestenvironnement.github.io/annonces.com/medias/static/jqueryCuttr/jquery.cookiecuttr.js"></script>
+    <script src="../../medias/static/jqueryCuttr/jquery.cookie.js"></script>
+    <script src="../../medias/static/jqueryCuttr/jquery.cookiecuttr.js"></script>
     <link href="https://leforestenvironnement.github.io/Lefenvt.com/themes/style.css"
       rel="stylesheet">
     <style type="text/css">
 div {
   font-size: 1em;
+  line-height: normal;
+  font-style: normal;
 }
 
 span {
@@ -35,19 +36,9 @@ span {
   line-height: 0.2em;
   font-weight: normal;
   font-style: normal;
-  font-variant-alternates: normal;
-  font-variant-caps: normal;
-  font-variant-east-asian: normal;
-  font-variant-ligatures: normal;
-  font-variant-numeric: normal;
-  font-variant-position: normal;
+  font-variant: normal;
   text-transform: none;
-  -webkit-text-decoration-color: currentcolor;
-  text-decoration-color: currentcolor;
-  -webkit-text-decoration-line: none;
-  text-decoration-line: none;
-  -webkit-text-decoration-style: solid;
-  text-decoration-style: solid;
+  text-decoration: none;
   text-align: left;
   direction: ltr;
 }
@@ -64,34 +55,12 @@ audio {
   background-color: rgba(255, 0, 0, 0);
   width: 95%;
   height: 40px;
-  border-top-width: 3px;
-  border-right-width: 3px;
-  border-bottom-width: 3px;
-  border-left-width: 3px;
-  border-top-color: yellow;
-  border-right-color: yellow;
-  border-bottom-color: yellow;
-  border-left-color: yellow;
-  border-top-style: ridge;
-  border-right-style: ridge;
-  border-bottom-style: ridge;
-  border-left-style: ridge;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border: 3px ridge yellow;
+  border-radius: 20px;
 }
 
 html, body {
-  background-color: rgba(0, 0, 0, 0);
-  background-image: radial-gradient(circle, #eff5f0 37%, #becdbb 100%);
-  background-repeat: repeat;
-  background-attachment: scroll;
-  background-clip: border-box;
-  background-origin: padding-box;
-  background-position-x: 0%;
-  background-position-y: 0%;
-  background-size: auto auto;
+  background: rgba(0, 0, 0, 0) radial-gradient(circle, #eff5f0 37%, #becdbb 100%) repeat scroll 0% 0%;
   padding-top: 60px;
   padding-bottom: 40px;
 }
@@ -102,8 +71,7 @@ html, body {
 }
 
 .contenu {
-  overflow-x: hidden;
-  overflow-y: hidden;
+  overflow: hidden;
   white-space: nowrap;
 }
 
@@ -115,7 +83,7 @@ html, body {
   color: red;
 }
 
-@media (max-width: 992px) {
+@media ( max-width : 992px ) {
   navbar-nav {
     color: blue;
     float: right;
@@ -123,14 +91,7 @@ html, body {
 }
 
 .scrolling {
-  animation-duration: 20s;
-  animation-timing-function: linear;
-  animation-delay: 0s;
-  animation-direction: normal;
-  animation-fill-mode: none;
-  animation-iteration-count: infinite;
-  animation-play-state: running;
-  animation-name: marquee;
+  animation: 20s linear 0s normal none infinite running marquee;
   display: inline-block;
   padding-right: 10px;
 }
@@ -152,14 +113,8 @@ a {
   background-color: #3f6538;
   color: white;
   font-weight: bold;
-  border-top-style: solid;
-  border-right-style: solid;
-  border-bottom-style: solid;
-  border-left-style: solid;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 15px;
+  border-style: solid;
+  border-radius: 15px;
 }
 
 .dropdown {
@@ -180,7 +135,7 @@ a {
   font-size: calc(1.525rem + 3.3vw);
 }
 
-@media (max-width: 932px) {
+@media ( max-width : 932px ) {
   .titre {
     font-size: 2rem;
   }
@@ -190,11 +145,10 @@ a {
   font-size: calc(1.225rem + 1vw);
 }
 
-@media (max-width: 932px) {
+@media ( max-width : 932px ) {
   .titre2 {
     font-size: 2rem;
   }
-
   .card-text {
     font-size: 0.75rem;
   }
@@ -209,10 +163,7 @@ a {
   position: fixed;
   z-index: 10;
   background-image: linear-gradient(to right, #144a19, #1b4e1d, #215221, #275625, #2d5a29, #305c2d, #335f31, #366135, #37623a, #39633e, #3b6343, #3d6447);
-  padding-top: 0px;
-  padding-right: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
+  padding: 0px;
   color: white;
 }
 
@@ -230,14 +181,8 @@ a {
 }
 
 .content .view .items-container .item-blog {
-  padding-top: 0px;
-  padding-right: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  background: #FFEFBA;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  padding: 0px;
+  background: rgba(0, 0, 0, 0) linear-gradient(to right, white, #ffefba) repeat scroll 0% 0%;
   -moz-border-top-colors: none;
   border-top-colors: none;
   -moz-border-right-colors: none;
@@ -246,60 +191,28 @@ background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, F
   border-bottom-colors: none;
   -moz-border-left-colors: none;
   border-left-colors: none;
-  border-image-source: none;
-  border-image-slice: 100% 100% 100% 100%;
-  border-image-width: 1 1 1 1;
-  border-image-outset: 0 0 0 0;
-  border-image-repeat: stretch stretch;
+  border-image: none;
   width: calc(25% - 15px);
-  margin-top: 0px;
-  margin-right: 5px;
-  margin-bottom: 0px;
-  margin-left: 5px;
-  border-top-style: solid;
-  border-right-style: solid;
-  border-bottom-style: solid;
-  border-left-style: solid;
-  border-top-color: black;
-  border-right-color: black;
-  border-bottom-color: black;
-  border-left-color: black;
-  border-top-width: 1px;
-  border-right-width: 1px;
-  border-bottom-width: 1px;
-  border-left-width: 1px;
+  margin: 0px 5px;
+  border: 1px solid black;
 }
 
-@media (max-width: 979px) {
+@media ( max-width : 979px ) {
   .content .view .items-container .item-blog {
     background-color: transparent;
-    border-top-width: medium;
-    border-right-width: medium;
-    border-bottom-width: medium;
-    border-left-width: medium;
-    border-top-style: none;
-    border-right-style: none;
-    border-bottom-style: none;
-    border-left-style: none;
-    border-top-color: currentcolor;
-    border-right-color: currentcolor;
-    border-bottom-color: currentcolor;
-    border-left-color: currentcolor;
+    border: medium none;
     -moz-border-top-colors: none;
+    border-top-colors: none;
     -moz-border-right-colors: none;
+    border-right-colors: none;
     -moz-border-bottom-colors: none;
+    border-bottom-colors: none;
     -moz-border-left-colors: none;
-    border-image-source: none;
-    border-image-slice: 100% 100% 100% 100%;
-    border-image-width: 1 1 1 1;
-    border-image-outset: 0 0 0 0;
-    border-image-repeat: stretch stretch;
+    border-left-colors: none;
+    border-image: none;
     width: 100%;
     height: 100%;
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
+    padding: 5px;
     margin-top: 20px;
     display: block;
   }
@@ -310,7 +223,7 @@ section {
   height: 150%;
 }
 
-@media (max-width: 979px) {
+@media ( max-width : 979px ) {
   section {
     width: 115%;
   }
@@ -339,1451 +252,1327 @@ section {
             <div class="introduction clearfix"> </div>
             <div class="items-container" style="height:auto">
               <div style="text-align: center;">
+                <!--******************************* -->
+                <div class="item item-blog media" data-category="annonces" style="min-height:700px;width:400px">
+                  <div class="media-body" style="margin-top: -10px; height: 398px;">
+                    <div style="line-height: 0.5px; font-weight: bold;"> <br>
+                      <h1> <span style="font-family: Arial;">Le 24
+                          septembre Fêtons </span> <span style="font-family: Arial;">les
+                          10 ans d’Aquaterra </span> </h1>
+                    </div>
+                    <div style="text-align: center;"><img src="https://agglo-henincarvin.fr/var/www/storage/images/mediatheque/communaute-d-agglomeration-henin-carvin/images/actu_environnement_affiche_10ans-aquaterra-parc-des-iles_2023/206776-1-fre-FR/actu_environnement_affiche_10ans-aquaterra-parc-des-iles_2023.jpg"
+                        style="width: 177px; margin-left: 5px; margin-top: 4px; height: 293px;"
+                        class="drop_ombre"></div>
+                    <div style="text-align: center;"><br>
+                    </div>
+                    <div style="text-align: center;"><br>
+                    </div>
+                    <div style="text-align: center;"> </div>
+                    <div class="main &lt;!--col-md-9--&gt;">
+                      <h3>Programme du 24 septembre</h3>
+                      <pre>10h&nbsp;: ouverture du village expo du 
+«&nbsp;Consommer autrement&nbsp;». Venez à la rencontre de la quarantaine 
+d’exposants locaux. Au programme&nbsp;: ateliers participatifs et créatifs, 
+ateliers de jardinage, ateliers de réparation, expositions d’art, jeux 
+pour les petits et les grands, points d’information et de 
+sensibilisation à l’environnement et vente de produits artisanaux et 
+locaux</pre>
+                      <pre>11h&nbsp;: grande chasse au trésor, proposée par l’association 
+Coach Sport Santé. Partez en famille à la découverte des richesses du 
+Parc des Iles. (Inscriptions sur place)</pre>
+                      <pre>15h&nbsp;: animation musicale proposée&nbsp; l’Harmonie municipale de Drocourt &nbsp;</pre>
+                      <pre>17h30&nbsp;: fermeture du village</pre>
+                      <pre>Ateliers de réparation</pre>
+                      <pre>Venez
+ avec votre vélo et vos petits appareils électroménagers. Sur place les 
+Repair cafés d’Hénin-Beaumont, Quiery, de Leforest et Micky’s vélo vous 
+proposeront des ateliers de réparations.</pre>
+                      <pre>Inscriptions sur place au dispositif Foyer Zéro déchet</pre>
+                      <pre><span class="wrap-img align-left is_inline" style="max-width:141px"><span
+class="figure-img"><img src="https://agglo-henincarvin.fr/var/www/storage/images/mediatheque/communaute-d-agglomeration-henin-carvin/images/actu_environnement_affiche_foyers-dechet_campagne2_2023/206755-1-fre-FR/actu_environnement_affiche_foyers-dechet_campagne2_2023_format_1.jpg"
+alt="actu_environnement_affiche_foyers-dechet_campagne2_2023" title="actu_environnement_affiche_foyers-dechet_campagne2_2023"
+class="img-responsive " height="200" width="141"></span></span>Au
+ centre village, n’hésitez pas à vous rendre sur les stands de l’Agglo 
+Hénin-Carvin pour obtenir des renseignements et vous inscrire au 
+dispositif «&nbsp;Foyers zero déchet&nbsp;», proposé par l’Agglo Hénin-Carvin, en 
+partenariat avec le SYMEVAD.</pre>
+                      <pre>Liste des exposants&nbsp;:</pre>
+                      <pre>Agglo 
+Hénin-Carvin, Aquaterra, Maison de l'Environnement, Foyers Zéro Déchet, 
+le SYMEVAD, Uni-vert-sport, Nature résiliente, Le 9-9 bis, Mission 
+Bassin Minier / Centre Régional Photographie Hauts-de-France (ramener un
+ tee-shirt), A la fourmilière, Planète sciences, La plume et le pinceau,
+ Micky's vélo (ramener son vélo), Créalaser, La Ressourcerie, 
+Association CADOSARCAHC (guides composteurs), Maison du jouet de 
+Rouvroy, Chlorophylle environnement, Leforest environnement, Abeilles 
+des terrils, UFC que choisir, Véolia, les Repair café d'Hénin-Beaumont, 
+Leforest et Quiery, Association Coach sport-santé, Pelle-mél, Au royaume
+ de flore, La liberté de créer, Au fil de la vie, Eden 62, Fairy stone.</pre>
+                    </div>
+                    <span style="color: red;background-color: white;font-size:0.75em">21
+                      septembre 2023</span>
+                    <div class="clearfix"><br>
+                      <a href="https://collectif-accad.fr/site/" class="btn-link"
+                        target="_blank"> </a></div>
+                    <div class="clearfix"><a href="https://agglo-henincarvin.fr/Actualites/Environnement/Le-24-septembre-Fetons-les-10-ans-d-Aquaterra"
+                        class="btn-link" target="_blank">Lire la suite</a></div>
+                  </div>
+                </div>
                 <!--******************************* --><b> <span style="font-family: Tlwg Typewriter;"><span
                       style="color: #3333ff;"> </span> </span><span style="font-family: Tlwg Typewriter;"><span
                       style="color: #3333ff;"></span><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
-                      dir="auto"> </span></span> </b></div>
-              <div class="item item-blog media" data-category="annonces" style="min-height:900px;width:600px">
-                <div style="text-align: center;"><b> </b></div>
-                <div class="media-body" style="margin-top: 28px; height: 832px; line-height: normal !important;">
-                  <div style="text-align: center;"><b><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
-                        dir="auto" style="font-family: serif;"><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
-                          dir="auto">
-                          <p> </p>
-                        </span></span></b></div>
-                  <div id=":q6" class="a3s aiL ">
-                    <div style="text-align: center;">
-                      <h2> PIQUE-NIQUE<img src="https://leforestenvironnement.github.io/annonces.com/medias/images/septembre%202023.png"
-                          style="margin-top: 28px; width: 513px; height: 800px; margin-left: -41px;"></h2>
+                      dir="auto"> </span></span> </b>
+                <div class="item item-blog media" data-category="annonces" style="min-height:700px;width:400px">
+                  <div class="media-body" style="margin-top: -10px">
+                    <h2 style="  margin-bottom: 0cm"><em><strong>Guide du déchet
+                          vert<br>
+                        </strong></em></h2>
+                    <div style="text-align: center; height: 671px;"><a href="https://heyzine.com/flip-book/7d95e4a530.html"
+                        target="_BLANK" class="heyzine-link fp-link"><img src="https://cdnc.heyzine.com/flip-book/cover-play/10/7d95e4a530.jpg"
+                          class="fp-thumb-play" style="border: 1px solid lightgray; box-shadow: lightgray 0px 0px 4px 1px;"></a><span
+                        style="color: #d90d1f;">Mars 2023</span><br>
                     </div>
-                    Rendez-vous au terril 122 de Leforest </div>
-                  <iframe scrolling="no" marginheight="0" marginwidth="0" sandbox="allow-forms allow-scripts allow-same-origin"
-                    src="https://www.geoportail.gouv.fr/embed/visu.html?c=3.06715462166386,50.44829384129147&amp;z=15&amp;l0=ORTHOIMAGERY.ORTHOPHOTOS::GEOPORTAIL:OGC:WMTS%281%29&amp;l1=GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2::GEOPORTAIL:OGC:WMTS%281%29&amp;v2=PLAN.IGN::GEOPORTAIL:GPP:TMS%281;s:standard%29&amp;l3=GEOGRAPHICALGRIDSYSTEMS.MAPS::GEOPORTAIL:OGC:WMTS%281%29&amp;permalink=yes"
-                    allowfullscreen="" height="400" frameborder="0" width="600"></iframe>
-                  <div class="a3s aiL "><br>
                   </div>
-                  <div class="a3s aiL ">&nbsp;</div>
-                  <div class="a3s aiL ">&nbsp; <span style="color: red;background-color: white;font-size:0.75em">4
-                      septembre 2023</span> </div>
-                  <div class="clearfix"> <a href="https://leforestenvironnement.github.io/annonces.com/blog/annonces/onu.html"
-                      class="btn-link" target="_blank"><br>
-                    </a></div>
                 </div>
-              </div>
-              <!-- ****************************** -->
-              <div style="text-align: center;">
-                <!--******************************* --><b> <span style="font-family: Tlwg Typewriter;"><span
-                      style="color: #3333ff;"> </span> </span><span style="font-family: Tlwg Typewriter;"><span
-                      style="color: #3333ff;"></span><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
-                      dir="auto"> </span></span> </b></div>
-              <div class="item item-blog media" data-category="annonces" style="min-height:660px;width:600px">
-                <div style="text-align: center;"><b> </b></div>
-                <div class="media-body" style="margin-top: 28px; height: 832px; line-height: normal !important;">
-                  <div style="text-align: center;"><b><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
-                        dir="auto" style="font-family: serif;"><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
-                          dir="auto">
-                          <p> </p>
-                        </span></span></b></div>
-                  <div id=":q6" class="a3s aiL ">
-                    <div style="text-align: center;">
-                      <h2> PRAIRIES FLEURIES<img src="https://st2.depositphotos.com/36932934/43314/i/1600/depositphotos_433146814-stock-photo-summer-flowers-meadow.jpg"
-                          alt="" style="margin-top: 28px; width: 286px; height: 208px;"></h2>
+                <!-- ****************************** -->
+                <!-- ****************************** -->
+                <div class="item item-blog media" data-category="annonces" style="min-height:650px;width:400px">
+                  <div class="media-body" style="margin-top: -10px">
+                    <h2 style="  margin-bottom: 0cm"><em><strong>Nouvelles
+                          consignes de tri<br>
+                        </strong></em></h2>
+                    <div style="text-align: center; height: 401px;"><a href="https://heyzine.com/flip-book/f61b838ad3.html"
+                        target="_BLANK" class="heyzine-link fp-link"><img src="https://cdnc.heyzine.com/flip-book/cover-play/10/f61b838ad3.jpg"
+                          class="fp-thumb-play" style="border: 1px solid lightgray; box-shadow: 0px 0px 4px 1px lightgray; height: 436px; width: 304px;"></a></div>
+                    <div style="text-align: center;"> </div>
+                    <div style="text-align: left;"><span style="color: #d90d1f;"><br>
+                      </span></div>
+                    <div style="text-align: left;"><span style="color: #d90d1f;"><br>
+                      </span></div>
+                    <div style="text-align: left;"><span style="color: #d90d1f;">Mars
+                        2023</span><br>
                     </div>
-                    <div dir="auto"><br>
+                  </div>
+                </div>
+                <!-- ****************************** -->
+                <!-- ****************************** -->
+                <div class="item item-blog media" data-category="annonces" style="min-height:450px;width:400px">
+                  <div class="media-body" style="margin-top: -10px">
+                    <h2 style="  margin-bottom: 0cm"><em><strong>Nettoyage du
+                          printemps 2023<br>
+                        </strong></em></h2>
+                    <div style="text-align: center; height: 271px;"><img src="../../medias/images/nettoyage-2023.jpg"
+                        style="width: 207px; margin-left: 5px; margin-top: -7px; height: 253px;"
+                        class="drop_ombre"></div>
+                    <div style="text-align: center;"> </div>
+                    <div style="text-align: left;"><span style="color: #d90d1f;">Mars
+                        2023</span><br>
                     </div>
-                    <div dir="auto">L'association Leforest environnement lance
-                      une opération de création de prairies fleuries dans
-                      différentes zones de Leforest (<i style="font-family: EB Garamond;">sous
-                        couvert&nbsp; de la mairie</i>).</div>
-                    Souhaitez-vous vous associer à&nbsp; cette opération ?</div>
-                  <div class="a3s aiL ">Les premières opérations commencent le
-                    mercredi 31 mai 2023...</div>
-                  <div class="a3s aiL ">Rendez-vous au local de l'association
-                    Leforest environnement</div>
-                  <div class="a3s aiL ">à 9 h30 .... (<i style="font-family: EB Garamond;">cité
-                      du château</i>)</div>
-                  <div class="a3s aiL ">&nbsp;L'opération consiste à semer et
-                    ratisser.</div>
-                  <div class="a3s aiL "><br>
-                  </div>
-                  <div class="a3s aiL ">
-                    <h2><span style="color: #336666;"><i>IMPORTANT</i></span></h2>
-                  </div>
-                  <div class="a3s aiL ">
-                    <h2><span style="color: #336666;"><i>N'oubliez pas de venir
-                          avec un rateau</i></span></h2>
-                  </div>
-                  <div class="a3s aiL ">
-                    <h2><span style="color: #336666;"><i>Les abeilles et les
-                          insectes pollinisateurs vous remercient d'avance..</i></span></h2>
-                  </div>
-                  &nbsp; <span style="color: red;background-color: white;font-size:0.75em">28
-                    mai 2023</span>
-                  <div class="clearfix"> <a href="https://leforestenvironnement.github.io/annonces.com/blog/annonces/onu.html"
-                      class="btn-link" target="_blank"><br>
-                    </a></div>
-                </div>
-              </div>
-              <!-- ****************************** -->
-              <!--******************************* --><b> <span style="font-family: Tlwg Typewriter;"><span
-                    style="color: #3333ff;"> </span> </span><span style="font-family: Tlwg Typewriter;"><span
-                    style="color: #3333ff;"></span><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
-                    dir="auto"> </span></span> </b>
-              <div class="item item-blog media" data-category="annonces" style="min-height:860px;width:600px"><b>
-                </b>
-                <div class="media-body" style="margin-top: 37px; height: 860px;"><b><span
-                      class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
-                      dir="auto" style="font-family: serif;"><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
-                        dir="auto">
-                        <p> </p>
-                      </span></span></b><img src="https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/345452909_920404902395907_251173442550225168_n.jpg?_nc_cat=104&amp;ccb=1-7&amp;_nc_sid=5cd70e&amp;_nc_ohc=OZ1pmcY9YDAAX9hkZu_&amp;_nc_ht=scontent-cdg4-3.xx&amp;oh=00_AfCNVNsAl1C-lmcu16WKbTB6OVGh-wkovjCIp9op0YcWjA&amp;oe=6477A5C6"
-                    alt=""><br>
-                  <span style="color: red;background-color: white;font-size:0.75em">10
-                    mai 2023</span>
-                  <div class="clearfix"> <a href="https://leforestenvironnement.github.io/annonces.com/blog/annonces/onu.html"
-                      class="btn-link" target="_blank"><br>
-                    </a></div>
-                </div>
-              </div>
-              <!-- ****************************** -->
-              <!--******************************* --><b> <span style="font-family: Tlwg Typewriter;"><span
-                    style="color: #3333ff;"> </span> </span><span style="font-family: Tlwg Typewriter;"><span
-                    style="color: #3333ff;"></span><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
-                    dir="auto"> </span></span> </b>
-              <div class="item item-blog media" data-category="annonces" style="min-height:700px;width:600px"><b>
-                </b>
-                <div class="media-body" style="margin-top: 37px; height: 1500px;"><b><span
-                      class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
-                      dir="auto" style="font-family: serif;"><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
-                        dir="auto">
-                        <p> </p>
-                      </span></span> </b>
-                  <div style="text-align: center;"><b><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
-                        dir="auto" style="font-family: serif;"><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
-                          dir="auto"> </span></span><img src="https://scontent-cdg2-1.xx.fbcdn.net/v/t39.30808-6/289165388_1113240595924932_3585633810792920534_n.jpg?stp=dst-jpg_p526x296&amp;_nc_cat=102&amp;ccb=1-7&amp;_nc_sid=5cd70e&amp;_nc_ohc=iv5-kPyvNL0AX8gd6To&amp;_nc_ht=scontent-cdg2-1.xx&amp;oh=00_AT9ymfDYTnh2YV4Pj6paenelZZE1pviQqMgAFBdxzvNWDg&amp;oe=62B91A30"
-                        alt="" title="𝟝𝔾 𝕖𝕥 𝕤𝕠𝕟 𝕞𝕠𝕟𝕕𝕖"></b></div>
-                  <b> </b>
-                  <div style="text-align: center;"><b><br>
-                    </b> </div>
-                  <b> </b>
-                  <h3><strong> 𝟝𝔾 𝕖𝕥 𝕤𝕠𝕟 𝕞𝕠𝕟𝕕𝕖 : 𝕦𝕟𝕖 𝕓𝕠𝕞𝕓𝕖 à
-                      𝕣𝕖𝕥𝕒𝕣𝕕𝕖𝕞𝕖𝕟𝕥</strong></h3>
-                  <h4><strong>Deux temps forts à ARRAS les 30 avril et 1er mai</strong>
-                    Avec l’appui de « Colères du Présent » qui organise son
-                    22ème salon du livre d’expression populaire et de critique
-                    sociale, un collectif d’associations anti-5G a préparé deux
-                    activités :<br>
-                    - une rencontre-débat le 30 avril à 16 h<br>
-                    - un stand d’animation avec documentation le 1ermai<br>
-                    Dimanche 30 avril 16 h-18 h<br>
-                    Hôtel de Guînes, rue des jongleurs (près de la place du
-                    théâtre) à Arras<br>
-                    conférence-débat avec Anthony BRUN-MAESTRONI<br>
-                    Voilà comment Anthony présente ce qu'il va dire :<br>
-                    La 5G ou la Vie !<br>
-                    C'est l'histoire d'un ingénieur devenu électro-hypersensible
-                    et donc contraint de changer de vie. C'est l'histoire de
-                    l'enquête qu'il mène depuis 16 ans sur les effets des champs
-                    électro-magnétiques.<br>
-                    Anthony Brun-Maestroni, auteur de la conférence "Cuisson
-                    lente thermostat 5G", nous propose un tour d'horizon des
-                    enjeux et des spécificités de la 5G, afin d'ouvrir un débat
-                    constructif sur ses effets et sur le besoin du recours à une
-                    telle technologie.<br>
-                    Lundi 1er mai, de 10 h à 18 h<br>
-                    Stand des collectifs « 5G et son monde : une bombe à
-                    retardement »<br>
-                    Cela se passera sur une des grands-places de la commune
-                    d’Arras.<br>
-                    Il y aura deux grandes banderoles :<br>
-                    5G et son monde : une bombe à retardement<br>
-                    Notre santé -enfants et adultes- n'est pas à vendre, même
-                    pour 10 000 €/an<br>
-                    Il y aura des panneaux montrant la gravité de la situation
-                    avec la multiplication des antennes 5G.<br>
-                    Dans le stand, il y aura des tracts, des brochures ...<br>
-                    Des livres à vendre :<br>
-                    <br>
-                    &nbsp;&nbsp;&nbsp; - 𝙾𝚗 𝚊𝚌𝚑è𝚟𝚎 𝚋𝚒𝚎𝚗 𝚕𝚎𝚜
-                    𝚎𝚗𝚏𝚊𝚗𝚝𝚜 ; 𝙵. 𝙻𝚎𝚋𝚛𝚞𝚗 <br>
-                    <br>
-                    &nbsp;&nbsp;&nbsp; - 𝙲𝚎 𝚖𝚘𝚗𝚍𝚎 𝚌𝚘𝚗𝚗𝚎𝚌𝚝é
-                    𝚚𝚞’𝚘𝚗 𝚗𝚘𝚞𝚜 𝚒𝚖𝚙𝚘𝚜𝚎 ; 𝙽. 𝙱é𝚛𝚊𝚛𝚍<br>
-                    <br>
-                    Associations partenaires de ces initiatives<br>
-                    <br>
-                    &nbsp;&nbsp;&nbsp; STOP 5G.be, collectif d’associations
-                    belges<br>
-                    &nbsp;&nbsp;&nbsp; Robin des Toits, association nationale<br>
-                    &nbsp;&nbsp;&nbsp; Association « Résistance 5G Nantes »<br>
-                    &nbsp;&nbsp;&nbsp; CALGEA 62, Collectif d’Avion<br>
-                    &nbsp;&nbsp;&nbsp; Stop Linky et 5G Pays de Condé, collectif
-                    du Valenciennois<br>
-                    &nbsp;&nbsp;&nbsp; Leforest-Environnement<br>
-                    &nbsp;&nbsp;&nbsp; « Pas Sur La Même Longueur d’Ondes »,
-                    collectif de la région de Lestrem-Merville-Lières<br>
-                    &nbsp;&nbsp;&nbsp; Collectif ACCAD<br>
-                    <br>
-                    𝓟𝓸𝓾𝓻 𝓹𝓵𝓾𝓼 𝓭𝓮 𝓻𝓮𝓷𝓼𝓮𝓲𝓰𝓷𝓮𝓶𝓮𝓷𝓽𝓼,
-                    𝓿𝓸𝓲𝓻 𝓵’𝓪𝓻𝓽𝓲𝓬𝓵𝓮 𝓹𝓪𝓻𝓾 𝓵𝓮 𝓵𝓾𝓷𝓭𝓲 24
-                    𝓪𝓿𝓻𝓲𝓵 𝓼𝓾𝓻 𝓵𝓮 𝓼𝓲𝓽𝓮 𝓭𝓾 𝓬𝓸𝓵𝓵𝓮𝓬𝓽𝓲𝓯
-                    𝓐𝓒𝓒𝓐𝓓.<br>
-                    ₚₒᵤᵣ ₗₑ cₒₗₗₑcₜᵢf ₐCCₐD, ₚᵢₑᵣᵣₑ ᵣₒₛₑ<br>
-ₕₜₜₚₛ://cₒₗₗₑcₜᵢf-ₐccₐd.fᵣ/ₛᵢₜₑ/₅g-ₑₜ-ₛₒₙ-ₘₒₙdₑ-…bₑ-ₐ-ᵣₑₜₐᵣdₑₘₑₙₜ/<br>
-                    <br>
-                    <br>
-                  </h4>
-                  <div class="clearfix"><span style="color: red;background-color: white;font-size:0.75em">24
-                      avril 2023</span></div>
-                  <div class="clearfix"> <a href="https://leforestenvironnement.github.io/annonces.com/blog/annonces/onu.html"
-                      class="btn-link" target="_blank"><br>
-                    </a></div>
-                </div>
-              </div>
-              <!-- ****************************** -->
-              <!-- ****************************** -->&nbsp;
-              <div class="item item-blog media" data-category="annonces" style="min-height:700px;width:400px">
-                <div class="media-body" style="margin-top: -10px">
-                  <h2 style="  margin-bottom: 0cm"><em><strong>Guide du déchet
-                        vert<br>
-                      </strong></em></h2>
-                  <div style="text-align: center; height: 671px;"><a href="https://heyzine.com/flip-book/7d95e4a530.html"
-                      target="_BLANK" class="heyzine-link fp-link"><img src="https://cdnc.heyzine.com/flip-book/cover-play/10/7d95e4a530.jpg"
-                        class="fp-thumb-play" style="border: 1px solid lightgray; box-shadow: lightgray 0px 0px 4px 1px;"></a><span
-                      style="color: #d90d1f;">Mars 2023</span><br>
                   </div>
                 </div>
-              </div>
-              <!-- ****************************** -->
-              <!-- ****************************** -->
-              <div class="item item-blog media" data-category="annonces" style="min-height:650px;width:400px">
-                <div class="media-body" style="margin-top: -10px">
-                  <h2 style="  margin-bottom: 0cm"><em><strong>Nouvelles
-                        consignes de tri<br>
-                      </strong></em></h2>
-                  <div style="text-align: center; height: 401px;"><a href="https://heyzine.com/flip-book/f61b838ad3.html"
-                      target="_BLANK" class="heyzine-link fp-link"><img src="https://cdnc.heyzine.com/flip-book/cover-play/10/f61b838ad3.jpg"
-                        class="fp-thumb-play" style="border: 1px solid lightgray; box-shadow: 0px 0px 4px 1px lightgray; height: 436px; width: 304px;"></a></div>
-                  <div style="text-align: center;"> </div>
-                  <div style="text-align: left;"><span style="color: #d90d1f;"><br>
-                    </span></div>
-                  <div style="text-align: left;"><span style="color: #d90d1f;"><br>
-                    </span></div>
-                  <div style="text-align: left;"><span style="color: #d90d1f;">Mars
-                      2023</span><br>
+                <!-- ****************************** -->
+                <!-- ****************************** -->
+                <div class="item item-blog media" data-category="annonces" style="min-height:400px;width:400px">
+                  <div class="media-body" style="margin-top: -10px;">
+                    <h2 style="  margin-bottom: 0cm"><em><strong>Assemblée
+                          générale</strong></em></h2>
+                    <div style="text-align: center;"><img src="../../medias/images/assembl%C3%A9e_g%C3%A9n%C3%A9rale_2023.png"
+                        style="width: 207px; margin-left: 5px; margin-top: -7px; height: 253px;"
+                        class="drop_ombre"></div>
+                    <div style="text-align: center;"> </div>
+                    <div style="text-align: left;"><br>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <!-- ****************************** -->
-              <!-- ****************************** -->
-              <div class="item item-blog media" data-category="annonces" style="min-height:450px;width:400px">
-                <div class="media-body" style="margin-top: -10px">
-                  <h2 style="  margin-bottom: 0cm"><em><strong>Nettoyage du
-                        printemps 2023<br>
-                      </strong></em></h2>
-                  <div style="text-align: center; height: 271px;"><img src="https://leforestenvironnement.github.io/annonces.com/medias/images/nettoyage-2023.jpg"
-                      style="width: 207px; margin-left: 5px; margin-top: -7px; height: 253px;"
-                      class="drop_ombre"></div>
-                  <div style="text-align: center;"> </div>
-                  <div style="text-align: left;"><span style="color: #d90d1f;">Mars
-                      2023</span><br>
+                <!-- ****************************** -->
+                <!-- ****************************** -->
+                <div class="item item-blog media" data-category="annonces" style="">
+                  <div class="media-body" style="margin-top: -10px;"> <a href="https://collectif-accad.fr/site/">RENCONTRE
+                      DEBAT<img src="https://collectif-accad.fr/site/wp-content/uploads/2023/02/Ondes-et-numerique-1.jpg"
+                        alt=""></a><br>
+                    <div style="text-align: center;"><img src="https://collectif-accad.fr/site/wp-content/uploads/2023/02/Ondes-et-numerique-3.jpg"
+                        style="width: 177px; margin-left: 5px; margin-top: 4px; height: 137px;"
+                        class="drop_ombre"></div>
+                    <div style="text-align: center;"> </div>
+                    <div style="text-align: left;">
+                      <pre style="   word-break: normal; margin-top: 18px;"> Les avantages, mais aussi les dangers de la 5G sont réels </pre>
+                      <h6 style="  word-break: normal; margin-top: 18px;">VENDREDI
+                        3 MARS 2023 - 19h &gt; 21h Mairie – Place du 8 mai -
+                        62136 LESTREM entrée libre </h6>
+                      <h6 style="  word-break: normal; margin-top: 18px;">SAMEDI
+                        4 MARS 2023 - 15h &gt; 17h Café-citoyen les Sarrazins -
+                        52-54 rue des Sarrazins - 59000 LILLE </h6>
+                      <h6 style="  word-break: normal; margin-top: 18px;">DIMANCHE
+                        5 MARS 2023 - 10h &gt; 12h Collège Jean Lemaire de
+                        Belges - 28 rue Vieux Chemin - 59570 BAVAY <span style="color: #9a2506;">ENTREE
+                          LIBRE </span> </h6>
+                    </div>
+                    <div class="clearfix"><span style="color: red;background-color: white;font-size:0.75em">10
+                        février 2023</span></div>
+                    <div class="clearfix"> <a href="https://collectif-accad.fr/site/"
+                        class="btn-link" target="_blank"> Lire la suite</a></div>
                   </div>
                 </div>
-              </div>
-              <!-- ****************************** -->
-              <!-- ****************************** -->
-              <div class="item item-blog media" data-category="annonces" style="min-height:400px;width:400px">
-                <div class="media-body" style="margin-top: -10px;">
-                  <h2 style="  margin-bottom: 0cm"><em><strong>Assemblée
-                        générale</strong></em></h2>
-                  <div style="text-align: center;"><img src="https://leforestenvironnement.github.io/annonces.com/medias/images/assembl%C3%A9e_g%C3%A9n%C3%A9rale_2023.png"
-                      style="width: 207px; margin-left: 5px; margin-top: -7px; height: 253px;"
-                      class="drop_ombre"></div>
-                  <div style="text-align: center;"> </div>
-                  <div style="text-align: left;"><br>
-                  </div>
-                </div>
-              </div>
-              <!-- ****************************** -->
-              <!-- ****************************** -->
-              <div class="item item-blog media" data-category="annonces" style="">
-                <div class="media-body" style="margin-top: -10px;"> <a href="https://collectif-accad.fr/site/">RENCONTRE
-                    DEBAT<img src="https://collectif-accad.fr/site/wp-content/uploads/2023/02/Ondes-et-numerique-1.jpg"
-                      alt=""></a><br>
-                  <div style="text-align: center;"><img src="https://collectif-accad.fr/site/wp-content/uploads/2023/02/Ondes-et-numerique-3.jpg"
-                      style="width: 177px; margin-left: 5px; margin-top: 4px; height: 137px;"
-                      class="drop_ombre"></div>
-                  <div style="text-align: center;"> </div>
-                  <div style="text-align: left;">
-                    <pre style="   word-break: normal; margin-top: 18px;"> Les avantages, mais aussi les dangers de la 5G sont réels </pre>
-                    <h6 style="  word-break: normal; margin-top: 18px;">VENDREDI
-                      3 MARS 2023 - 19h &gt; 21h Mairie – Place du 8 mai - 62136
-                      LESTREM entrée libre </h6>
-                    <h6 style="  word-break: normal; margin-top: 18px;">SAMEDI 4
-                      MARS 2023 - 15h &gt; 17h Café-citoyen les Sarrazins -
-                      52-54 rue des Sarrazins - 59000 LILLE </h6>
-                    <h6 style="  word-break: normal; margin-top: 18px;">DIMANCHE
-                      5 MARS 2023 - 10h &gt; 12h Collège Jean Lemaire de Belges
-                      - 28 rue Vieux Chemin - 59570 BAVAY <span style="color: #9a2506;">ENTREE
-                        LIBRE </span> </h6>
-                  </div>
-                  <div class="clearfix"><span style="color: red;background-color: white;font-size:0.75em">10
-                      février 2023</span></div>
-                  <div class="clearfix"> <a href="https://collectif-accad.fr/site/"
-                      class="btn-link" target="_blank"> Lire la suite</a></div>
-                </div>
-              </div>
-              <!-- ****************************** -->
-              <!-- ****************************** -->
-              <div class="item item-blog media" data-category="annonces" style="">
-                <div class="media-body">
-                  <p><a href="https://leforestenvironnement.github.io/annonces.com/blog/annonces/5g_izel.html">POURQUOI
-                      REFUSER LA 5G ET SON MONDE<br>
-                      LES ANGLES MORTS DU DÉBAT</a></p>
-                  <div style="text-align: center;"><img src="https://leforestenvironnement.github.io/Lefenvt.com/medias/images/5g.jpeg"
-                      style="width: 120px; margin-left: 50px; margin-top: -14px; height: 59px;"
-                      class="drop_ombre"></div>
-                  <div style="text-align: center;"> </div>
-                  <div style="text-align: left;">
-                    <pre style="word-break: normal; margin-top: 18px;"> Les avantages, mais aussi les dangers de la 5G sont réels
+                <!-- ****************************** -->
+                <!-- ****************************** -->
+                <div class="item item-blog media" data-category="annonces" style="">
+                  <div class="media-body">
+                    <p><a href="5g_izel.html">POURQUOI REFUSER LA 5G ET SON
+                        MONDE<br>
+                        LES ANGLES MORTS DU DÉBAT</a></p>
+                    <div style="text-align: center;"><img src="https://leforestenvironnement.github.io/Lefenvt.com/medias/images/5g.jpeg"
+                        style="width: 120px; margin-left: 50px; margin-top: -14px; height: 59px;"
+                        class="drop_ombre"></div>
+                    <div style="text-align: center;"> </div>
+                    <div style="text-align: left;">
+                      <pre style="word-break: normal; margin-top: 18px;"> Les avantages, mais aussi les dangers de la 5G sont réels
 La 5G augmentera l'électrosmog
 La 5G multipliera le nombre d'objets connectés
 La 5G peut booster l'économie avec un chiffre d'affaires potentiel de 12,3 trillions de dollars
 La 5G pourrait rendre un grand nombre de personnes plus malades selon certains scientifiques et, de ce fait, poser des problèmes de croissance économique : les dangers de la 5G se situent donc à plusieurs niveaux
 La 5G permettra un transfert de données bien plus rapide
 Si les opérateurs peuvent déployer ces technologies, c'est parce que nous les laissons faire : nous sommes donc tous responsable à notre niveau. D’où l’intérêt d’être conscients des dangers de la 5G.</pre>
+                    </div>
+                    <div class="clearfix"><span style="color: red;background-color: white;font-size:0.75em">10
+                        novembre 2022</span></div>
+                    <div class="clearfix"> <a href="5g_izel.html" class="btn-link"
+                        target="_blank"> Lire la suite</a></div>
                   </div>
-                  <div class="clearfix"><span style="color: red;background-color: white;font-size:0.75em">10
-                      novembre 2022</span></div>
-                  <div class="clearfix"> <a href="https://leforestenvironnement.github.io/annonces.com/blog/annonces/5g_izel.html"
-                      class="btn-link" target="_blank"> Lire la suite</a></div>
                 </div>
-              </div>
-              <!-- ****************************** -->
-              <!-- ****************************** -->
-              <div class="item item-blog media" data-category="annonces" style="height:1500px;width:400px">
-                <div class="media-body">
-                  <h4><a href="https://leforestenvironnement.github.io/annonces.com/blog/annonces/adonis.html"><span
-                        style="font-family: arial;">Une carte pour connaître
-                        l’exposition de votre commune aux pesticides</span></a></h4>
-                  <h1> </h1>
-                  <div style="text-align: center;"><span style="font-family: Kalapi;"><a
-                        href="https://leforestenvironnement.github.io/annonces.com/blog/annonces/adonis.html"
-                        target="_blank"><img src="https://reporterre.net/local/cache-vignettes/L720xH480/arton25687-bdb97.jpg?1655989509"
-                          style="width: 208px; height: 133px;" class="drop_ombre"></a><br>
-                    </span></div>
-                  <div style="text-align: left;">
-                    <pre style="
+                <!-- ****************************** -->
+                <!-- ****************************** -->
+                <div class="item item-blog media" data-category="annonces" style="height:1500px;width:400px">
+                  <div class="media-body">
+                    <h4><a href="adonis.html"><span style="font-family: arial;">Une
+                          carte pour connaître l’exposition de votre commune aux
+                          pesticides</span></a></h4>
+                    <h1> </h1>
+                    <div style="text-align: center;"><span style="font-family: Kalapi;"><a
+                          href="adonis.html" target="_blank"><img src="https://reporterre.net/local/cache-vignettes/L720xH480/arton25687-bdb97.jpg?1655989509"
+                            style="width: 208px; height: 133px;" class="drop_ombre"></a><br>
+                      </span></div>
+                    <div style="text-align: left;">
+                      <pre style="
 font-family:= kalapi;font-size:0.5; word-break: normal;"> Pourquoi cette carte ?
 La carte Adonis a pour ambition de porter à la connaissance de tous les données communales sur l'usage des pesticides.</pre>
+                    </div>
+                    <div class="clearfix"><span style="color: red;background-color: white;font-size:0.75em">20
+                        juin2022</span></div>
+                    <div class="clearfix"> <a href="adonis.html" class="btn-link"
+                        target="_blank"> Lire la suite</a></div>
                   </div>
-                  <div class="clearfix"><span style="color: red;background-color: white;font-size:0.75em">20
-                      juin2022</span></div>
-                  <div class="clearfix"> <a href="https://leforestenvironnement.github.io/annonces.com/blog/annonces/adonis.html"
-                      class="btn-link" target="_blank"> Lire la suite</a></div>
                 </div>
-              </div>
-              <!-- ****************************** -->
-              <!--******************************* --> <span style="font-family: Tlwg Typewriter;"><span
-                  style="color: #3333ff;"> </span> </span><span style="font-family: Tlwg Typewriter;"><span
-                  style="color: #3333ff;"></span><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
-                  dir="auto"> </span></span>
-              <div class="item item-blog media" data-category="annonces" style="max-width:400px;">
-                <div class="media-body">
-                  <h3> <span style="font-family: FreeSans;">La préfecture du
-                      Pas-de-Calais a lancé une nouvelle campagne de dépistage
-                      du saturnisme&nbsp; après les dernières révélations sur la
-                      pollution au plomb <img src="https://leforestenvironnement.github.io/annonces.com/medias/images/metaleurop.png"
-                        alt="" style="width: 81px;"></span><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
-                      dir="auto" style="font-family: serif;"><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
-                        dir="auto"> </span></span></h3>
-                  <h1 class="chapo"><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
-                      dir="auto" style="font-family: serif;"><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
-                        dir="auto">
-                        <h4 class="gmql0nx0 l94mrbxd p1ri9a11 lzcic4wl n851cfcs n1l5q3vz"><span
-                            class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua o3w64lxj b2s5l15y b1v8xokw oo9gr5id"><span>EVIN
-                              MALMAISON </span></span></h4>
-                      </span></span></h1>
-                  <h6><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
-                      dir="auto" style="font-family: serif;"><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
-                        dir="auto"> </span></span><span style="font-family: FreeSans;"></span><span
-                      style="font-family: FreeSans;"></span> </h6>
-                  <h6><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
-                      dir="auto" style="font-family: serif;"><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
-                        dir="auto">
-                        <p> </p>
-                      </span></span></h6>
-                  <h6> </h6>
-                  <h6 style=" margin-bottom: 0cm">Le phénix de la pollution
-                    habite à Evin malmaison et ses environs. L’affaire
-                    Métaleurop n'en finit pas de renaître de ses cendres, ou
-                    plutôt, elle est pourvue de têtes comme une hydre&nbsp;; une
-                    tête coupée en fait renaître mille...</h6>
-                  <h6> </h6>
-                  <h6 style=" margin-bottom: 0cm">Le journaliste Martin Boudot à
-                    de nouveau remué la vase pour en faire remonter les miasmes.
-                    Une réunion publique préliminaire à eu lieu le vendredi 29
-                    avril 2022 à Evin Malmaison suivie par une émission sur BFM
-                    LILLE le 5 mai 2022...</h6>
-                  <h6> </h6>
-                  <h6 style=" margin-bottom: 0cm"><br>
-                  </h6>
-                  <h6> </h6>
-                  <h6 style=" margin-bottom: 0cm">Ce remous semble avoir
-                    provoqué une onde de choc qui secoue apparemment les
-                    instances étatiques de notre département&nbsp;:</h6>
-                  <h6> </h6>
-                  <h6 style=" margin-bottom: 0cm">Une nouvelle campagne de
-                    dépistage du saturnisme annoncée par la préfecture du
-                    Pas-de-Calais a été lancée cette semaine.</h6>
-                  <h6> </h6>
-                  <h6 style=" margin-bottom: 0cm">les révélations du journaliste
-                    Martin Boudot dans le cadre de son enquête sur la pollution
-                    au plomb léguée par Metaleurop prouvent que l'on dépasse le
-                    seuil de 300 mg/kg au-delà duquel la terre devrait être
-                    retirée notamment dans des endroits publics sensibles, comme
-                    l’école Dolto à Evin Malmaison par exemple. </h6>
-                  <h6> </h6>
-                  <h6>Sentant se lever sans doute un vent mauvais, la préfecture
-                    a décidé l’élaboration d’un programme de prélèvements et de
-                    mesures « qui permettront de faire le point sur ce
-                    dossier&nbsp;».. Des bureaux d’études et des laboratoires
-                    seront mandatés par l'ADEME pour réaliser diverses mesures
-                    sur plusieurs types de sols.</h6>
-                  <h6> </h6>
-                  <h6><span style="color: #666666;"><i><span style="font-family: Purisa;"><strong>Reste
-                            à déplorer que cette campagne ne suscite pas le même
-                            enthousiasme que déploient nos chers élus lors de
-                            leur campagne élective pour laquelle ils savent
-                            faire de la propagande tapageuse.</strong></span></i></span></h6>
-                  <h6> </h6>
-                  <h6> Une histoire sans fin... Le feuilleton métaleurop est une
-                    <i>intrigue aux </i><i><b>rebondissements</b></i><i>
-                      incessants.</i></h6>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6><span style="color: red;background-color: white;font-size:0.75em">22
-                        juin2022</span></h6>
-                  </div>
-                  <div class="clearfix"> <a href="https://leforestenvironnement.github.io/annonces.com/blog/annonces/onu.html"
-                      class="btn-link" target="_blank"><br>
-                    </a></div>
-                </div>
-              </div>
-              <!-- ****************************** -->
-              <!--******************************* -->
-              <div class="item item-blog media" data-category="annonces" style="height:1500px;width:400px"><span
-                  style="color: #3333ff;"> </span>
-                <div class="media-body"><span style="color: #3333ff;"> </span>
-                  <div class="clearfix" style="text-align: justify;">
-                    <dl>
-                      <dt> <a href="https://leforestenvironnement.github.io/annonces.com/blog/annonces/onu.html">𝕌𝕟𝕖
-                          𝕊𝕖𝕦𝕝𝕖 𝕋𝕖𝕣𝕣𝕖 𝕕𝕖 𝕝𝕒 𝕁𝕠𝕦𝕣𝕟é𝕖
-                          𝕞𝕠𝕟𝕕𝕚𝕒𝕝𝕖 𝕕𝕖 𝕝'𝕖𝕟𝕧𝕚𝕣𝕠𝕟𝕟𝕖𝕞𝕖𝕟𝕥 </a></dt>
-                    </dl>
-                  </div>
-                  <div style="text-align: center;">
-                    <h6><span style="font-family: Kalapi;"><a href="https://heyzine.com/flip-book/054e5d09e9.html"
-                          target="_blank"><img src="https://cdn.unenvironment.org/2022-06/Renewables_Shutterstock.jpg"
-                            style="width: 208px; height: 133px;" class="drop_ombre"></a><br>
-                      </span></h6>
-                  </div>
-                  <h6> </h6>
-                  <div style="text-align: left;">
-                    <h6> </h6>
-                    <h6>Réparer fleuves, forêts et prairies pour retrouver la
-                      biodiversité Restaurer les écosystèmes dégradés est l’un
-                      des défis pour l’avenir, selon l’ONU. Des projets
-                      ambitieux, tant humainement que financièrement, mais
-                      nécessaires pour rendre à la nature son territoire. </h6>
-                    <h6> </h6>
-                  </div>
-                  <div class="clearfix"><span style="color: red;background-color: white;font-size:0.75em">20
-                      juin2022</span></div>
-                  <div class="clearfix"> <a href="https://leforestenvironnement.github.io/annonces.com/blog/annonces/onu.html"
-                      class="btn-link" target="_blank"> Lire la suite</a></div>
-                </div>
-              </div>
-              <!-- ****************************** -->
-              <!--******************************* -->
-              <div class="item item-blog media" data-category="annonces" style="height:1500px;width:400px"><span
-                  style="color: #3333ff;"> </span>
-                <div class="media-body"><span style="color: #3333ff;"> </span>
-                  <div class="clearfix"> <a href="https://heyzine.com/flip-book/b81910f601.html"
-                      class="btn-link" target="_blank">𝕃𝕒
-                      𝕓𝕚𝕠𝕕𝕚𝕧𝕖𝕣𝕤𝕚𝕥é 𝕔𝕠𝕟𝕥𝕣𝕚𝕓𝕦𝕖 à
-                      𝕡𝕣𝕠𝕥é𝕘𝕖𝕣 𝕟𝕠𝕥𝕣𝕖 𝕤𝕒𝕟𝕥é...</a></div>
-                  <div style="text-align: center;">
-                    <h6><span style="font-family: Kalapi;"><a href="https://heyzine.com/flip-book/b81910f601.html"><img
-                            src="https://www.ird.fr/sites/ird_fr/files/styles/medium_300/public/2022-04/Affiche%20LFDP%20A3%20Logos.jpg?itok=73IcCHRJ"
-                            style="width: 190px;" class="drop_ombre"></a><br>
-                      </span></h6>
-                  </div>
-                  <h6> </h6>
-                  <div style="text-align: left;">
-                    <h6> </h6>
-                    <h6>𝕃𝕒 𝕓𝕚𝕠𝕕𝕚𝕧𝕖𝕣𝕤𝕚𝕥é 𝕔𝕠𝕟𝕥𝕣𝕚𝕓𝕦𝕖 à
-                      𝕡𝕣𝕠𝕥é𝕘𝕖𝕣 𝕟𝕠𝕥𝕣𝕖 𝕤𝕒𝕟𝕥é La pandémie de
-                      Covid-19 pourrait être la première d’une longue série, si
-                      l’on continue à détruire la Terre. Ce lien entre zoonoses,
-                      d’origine animale, et biodiversité est au centre du
-                      dernier film de Marie-Monique Robin, La Fabrique de
-                      Pandémies, diffusé à partir du 22 mai.......</h6>
-                    <p><br>
-                    </p>
-                    <h6> </h6>
-                  </div>
-                  <div class="clearfix"><span style="color: red;background-color: white;font-size:0.75em">20
-                      mai 2022</span></div>
-                  <div class="clearfix">
-                    <h6> <a href="https://heyzine.com/flip-book/b81910f601.html"
-                        class="btn-link" target="_blank"> Lire la suite</a></h6>
-                  </div>
-                  <h6>
-                    <!-- ****************************** -->
-                    <!--******************************* --> </h6>
-                </div>
-              </div>
-              <div class="item item-blog media" data-category="annonces" style="min-height:500px;width:400px">
-                <h6><span style="color: #3333ff;"> </span> </h6>
-                <div class="media-body">
-                  <h6><span style="color: #3333ff;"> </span> </h6>
-                  <div class="clearfix">
-                    <h6> <a href="https://leforestenvironnement.github.io/annonces.com/blog/annonces/vert%20de%20rage.html"
-                        class="btn-link" target="_blank"> ℙ𝕠𝕝𝕝𝕦𝕥𝕚𝕠𝕟 𝕕𝕖
-                        𝕄𝕖𝕥𝕒𝕝𝕖𝕦𝕣𝕠𝕡 à É𝕧𝕚𝕟𝕄𝕒𝕝𝕞𝕒𝕚𝕤𝕠𝕟 :
-                        𝕕𝕖𝕤 𝕕𝕠𝕟𝕟é𝕖𝕤 «𝕚𝕟𝕢𝕦𝕚é𝕥𝕒𝕟𝕥𝕖𝕤 </a></h6>
-                  </div>
-                  <h6> </h6>
-                  <div style="text-align: center;">
-                    <h6><span style="font-family: Kalapi;"><a href="https://leforestenvironnement.github.io/annonces.com/blog/annonces/vert%20de%20rage.html"><img
-                            src="https://lvdneng.rosselcdn.net/sites/default/files/dpistyles_v2/vdn_864w/2022/04/23/node_1170356/55295795/public/2022/04/23/B9730680910Z.1_20220423161628_000%2BGHRKBN8GA.1-0.jpg?itok=SBH84A4Y1650735454"
-                            alt="" style="width: 190px;" class="drop_ombre"></a><br>
-                      </span></h6>
-                  </div>
-                  <h6> </h6>
-                  <div style="text-align: left;">
-                    <h6> </h6>
-                    <h6>Une équipe de l’émission « Vert de rage », diffusée sur
-                      France 5, enquête depuis un an sur la pollution léguée par
-                      Metaleurop, près de vingt ans après la fermeture de cette
-                      fonderie. Le fruit de son enquête sera dévoilé ce vendredi
-                      par plusieurs scientifiques qui ont apporté leur expertise
-                      au futur documentaire.</h6>
-                    <h6> </h6>
-                  </div>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6><span style="color: red;background-color: white;font-size:0.75em">25
-                        avril 2022</span></h6>
-                  </div>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6> <a href="https://leforestenvironnement.github.io/annonces.com/blog/annonces/vert%20de%20rage.html"
-                        class="btn-link" target="_blank"> Lire la suite</a></h6>
-                  </div>
-                  <h6> </h6>
-                </div>
-                <h6> </h6>
-              </div>
-              <h6>
                 <!-- ****************************** -->
-                <!--******************************* --> </h6>
-              <div class="item item-blog media" data-category="annonces" style="height:1500px">
-                <h6> </h6>
-                <div class="media-body">
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6>&nbsp;&nbsp; </h6>
-                    <h6> <a href="https://leforestenvironnement.github.io/annonces.com/blog/annonces/compostage.html"
-                        target="_blank">𝕃𝕖 𝕔𝕠𝕞𝕡𝕠𝕤𝕥 𝕤𝕖𝕣𝕒
-                        𝕠𝕓𝕝𝕚𝕘𝕒𝕥𝕠𝕚𝕣𝕖 𝕖𝕟 𝔽𝕣𝕒𝕟𝕔𝕖 𝕖𝕟 𝟚𝟘𝟚𝟛 :
-                        Ê𝕥𝕖𝕤-𝕧𝕠𝕦𝕤 𝕡𝕣Ê𝕥 <br>
-                      </a></h6>
-                  </div>
-                  <h6> </h6>
-                  <h6> <span style="font-family: Kalam;">Le tri des déchets
-                      organiques deviendra obligatoire&nbsp; en 2023.&nbsp; Il
-                      faudra donc produire notre propre compost ! </span></h6>
-                  <h6> </h6>
-                  <h6> </h6>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6> <span style="color: red;background-color: white;font-size:0.75em"><br>
-                      </span></h6>
-                  </div>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6><span style="color: red;background-color: white;font-size:0.75em">8
-                        avril 2022</span></h6>
-                  </div>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6><br>
-                      <a href="https://leforestenvironnement.github.io/annonces.com/blog/annonces/compostage.html"
-                        class="btn-link" target="_blank"> Lire la suite</a></h6>
-                  </div>
-                  <h6> </h6>
-                </div>
-                <h6> </h6>
-              </div>
-              <h6>
-                <!-- ****************************** -->
-                <!--******************************* --> </h6>
-              <div class="item item-blog media" data-category="annonces" style="height:1500px;width:400px">
-                <h6> </h6>
-                <div class="media-body">
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6>&nbsp;&nbsp; </h6>
-                    <h6> <a href="https://online.fliphtml5.com/gvflu/kqzg/#p=1"
-                        target="_blank">ℂ𝕆𝕃𝕃𝔼ℂ𝕋𝔼 𝔻𝔼𝕊 𝕍É𝔾É𝕋𝔸𝕌𝕏<br>
-                        𝗔𝗚𝗚𝗟𝗢 Hénin Carvin</a></h6>
-                  </div>
-                  <h6> </h6>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6> <iframe style="width:400px;height:250px" src="https://online.fliphtml5.com/gvflu/kqzg/"
-                        seamless="seamless" scrolling="no" allowtransparency="true"
-                        allowfullscreen="true" frameborder="0">&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;br&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
-                        </iframe><span style="color: red;background-color: white;font-size:0.75em">
-                      </span></h6>
-                  </div>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6><span style="color: red;background-color: white;font-size:0.75em">3
-                        avril 2022</span></h6>
-                  </div>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6><br>
-                      <a href="https://online.fliphtml5.com/gvflu/kqzg/#p=1" class="btn-link"
-                        target="_blank"> Lire la suite</a></h6>
-                  </div>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6><span style="color: red;background-color: white;font-size:0.75em"><br>
-                      </span></h6>
-                  </div>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6><span style="color: red;background-color: white;font-size:0.75em"></span>
+                <!--******************************* --> <span style="font-family: Tlwg Typewriter;"><span
+                    style="color: #3333ff;"> </span> </span><span style="font-family: Tlwg Typewriter;"><span
+                    style="color: #3333ff;"></span><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
+                    dir="auto"> </span></span>
+                <div class="item item-blog media" data-category="annonces" style="max-width:400px;">
+                  <div class="media-body">
+                    <h3> <span style="font-family: FreeSans;">La préfecture du
+                        Pas-de-Calais a lancé une nouvelle campagne de dépistage
+                        du saturnisme&nbsp; après les dernières révélations sur
+                        la pollution au plomb <img src="../../medias/images/metaleurop.png"
+                          alt="" style="width: 81px;"></span><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
+                        dir="auto" style="font-family: serif;"><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
+                          dir="auto"> </span></span></h3>
+                    <h1 class="chapo"><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
+                        dir="auto" style="font-family: serif;"><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
+                          dir="auto">
+                          <h4 class="gmql0nx0 l94mrbxd p1ri9a11 lzcic4wl n851cfcs n1l5q3vz"><span
+                              class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua o3w64lxj b2s5l15y b1v8xokw oo9gr5id"><span>EVIN
+                                MALMAISON </span></span></h4>
+                        </span></span></h1>
+                    <h6><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
+                        dir="auto" style="font-family: serif;"><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
+                          dir="auto"> </span></span><span style="font-family: FreeSans;"></span><span
+                        style="font-family: FreeSans;"></span> </h6>
+                    <h6><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
+                        dir="auto" style="font-family: serif;"><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql b0tq1wua a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d9wwppkn hrzyx87i jq4qci2q a3bd9o3v b1v8xokw oo9gr5id"
+                          dir="auto">
+                          <p> </p>
+                        </span></span></h6>
+                    <h6> </h6>
+                    <h6 style=" margin-bottom: 0cm">Le phénix de la pollution
+                      habite à Evin malmaison et ses environs. L’affaire
+                      Métaleurop n'en finit pas de renaître de ses cendres, ou
+                      plutôt, elle est pourvue de têtes comme une hydre&nbsp;;
+                      une tête coupée en fait renaître mille...</h6>
+                    <h6> </h6>
+                    <h6 style=" margin-bottom: 0cm">Le journaliste Martin Boudot
+                      à de nouveau remué la vase pour en faire remonter les
+                      miasmes. Une réunion publique préliminaire à eu lieu le
+                      vendredi 29 avril 2022 à Evin Malmaison suivie par une
+                      émission sur BFM LILLE le 5 mai 2022...</h6>
+                    <h6> </h6>
+                    <h6 style=" margin-bottom: 0cm"><br>
                     </h6>
+                    <h6> </h6>
+                    <h6 style=" margin-bottom: 0cm">Ce remous semble avoir
+                      provoqué une onde de choc qui secoue apparemment les
+                      instances étatiques de notre département&nbsp;:</h6>
+                    <h6> </h6>
+                    <h6 style=" margin-bottom: 0cm">Une nouvelle campagne de
+                      dépistage du saturnisme annoncée par la préfecture du
+                      Pas-de-Calais a été lancée cette semaine.</h6>
+                    <h6> </h6>
+                    <h6 style=" margin-bottom: 0cm">les révélations du
+                      journaliste Martin Boudot dans le cadre de son enquête sur
+                      la pollution au plomb léguée par Metaleurop prouvent que
+                      l'on dépasse le seuil de 300 mg/kg au-delà duquel la terre
+                      devrait être retirée notamment dans des endroits publics
+                      sensibles, comme l’école Dolto à Evin Malmaison par
+                      exemple. </h6>
+                    <h6> </h6>
+                    <h6>Sentant se lever sans doute un vent mauvais, la
+                      préfecture a décidé l’élaboration d’un programme de
+                      prélèvements et de mesures « qui permettront de faire le
+                      point sur ce dossier&nbsp;».. Des bureaux d’études et des
+                      laboratoires seront mandatés par l'ADEME pour réaliser
+                      diverses mesures sur plusieurs types de sols.</h6>
+                    <h6> </h6>
+                    <h6><span style="color: #666666;"><i><span style="font-family: Purisa;"><strong>Reste
+                              à déplorer que cette campagne ne suscite pas le
+                              même enthousiasme que déploient nos chers élus
+                              lors de leur campagne élective pour laquelle ils
+                              savent faire de la propagande tapageuse.</strong></span></i></span></h6>
+                    <h6> </h6>
+                    <h6> Une histoire sans fin... Le feuilleton métaleurop est
+                      une <i>intrigue aux </i><i><b>rebondissements</b></i><i>
+                        incessants.</i></h6>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6><span style="color: red;background-color: white;font-size:0.75em">22
+                          juin2022</span></h6>
+                    </div>
+                    <div class="clearfix"> <a href="onu.html" class="btn-link"
+                        target="_blank"><br>
+                      </a></div>
                   </div>
-                  <h6> </h6>
                 </div>
-                <h6> </h6>
-              </div>
-              <h6>
                 <!-- ****************************** -->
-                <!--******************************* --> </h6>
-              <div class="item item-blog media" data-category="annonces" style="height:1500px;width:300px">
-                <h6> </h6>
-                <div class="media-body">
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6>&nbsp;&nbsp; </h6>
-                    <h6> <a href="https://leforestenvironnement.github.io/annonces.com/blog/annonces/TEOM.html"
-                        target="_blank">ℂ𝔸ℍℂ<br>
-                        𝕃’𝕒𝕦𝕘𝕞𝕖𝕟𝕥𝕒𝕥𝕚𝕠𝕟 𝕕𝕖 𝕝𝕒 𝕥𝕒𝕩𝕖 𝕤𝕦𝕣
-                        𝕝𝕖𝕤 𝕠𝕣𝕕𝕦𝕣𝕖𝕤 𝕞é𝕟𝕒𝕘è𝕣𝕖𝕤 𝕧𝕠𝕥é𝕖</a></h6>
-                  </div>
-                  <h6> </h6>
-                  <h6> </h6>
-                  <div class="clearfix">
+                <!--******************************* -->
+                <div class="item item-blog media" data-category="annonces" style="height:1500px;width:400px"><span
+                    style="color: #3333ff;"> </span>
+                  <div class="media-body"><span style="color: #3333ff;"> </span>
+                    <div class="clearfix" style="text-align: justify;">
+                      <dl>
+                        <dt> <a href="onu.html">𝕌𝕟𝕖 𝕊𝕖𝕦𝕝𝕖 𝕋𝕖𝕣𝕣𝕖
+                            𝕕𝕖 𝕝𝕒 𝕁𝕠𝕦𝕣𝕟é𝕖 𝕞𝕠𝕟𝕕𝕚𝕒𝕝𝕖 𝕕𝕖
+                            𝕝'𝕖𝕟𝕧𝕚𝕣𝕠𝕟𝕟𝕖𝕞𝕖𝕟𝕥 </a></dt>
+                      </dl>
+                    </div>
+                    <div style="text-align: center;">
+                      <h6><span style="font-family: Kalapi;"><a href="https://heyzine.com/flip-book/054e5d09e9.html"
+                            target="_blank"><img src="https://cdn.unenvironment.org/2022-06/Renewables_Shutterstock.jpg"
+                              style="width: 208px; height: 133px;" class="drop_ombre"></a><br>
+                        </span></h6>
+                    </div>
                     <h6> </h6>
                     <div style="text-align: left;">
                       <h6> </h6>
-                      <h6> <span style="color: black;font-size:1em"><span style="color: black;">La
-                            taxe d’enlèvement des ordures ménagères sera bel et
-                            bien multipliée par cinq dans l’agglomération
-                            d’Hénin-Carvin. Le vote a été finalement moins serré
-                            qu’attendu, les élus « sceptiques » préférant
-                            s’abstenir plutôt que de voter contre.</span>..<br>
+                      <h6>Réparer fleuves, forêts et prairies pour retrouver la
+                        biodiversité Restaurer les écosystèmes dégradés est l’un
+                        des défis pour l’avenir, selon l’ONU. Des projets
+                        ambitieux, tant humainement que financièrement, mais
+                        nécessaires pour rendre à la nature son territoire. </h6>
+                      <h6> </h6>
+                    </div>
+                    <div class="clearfix"><span style="color: red;background-color: white;font-size:0.75em">20
+                        juin2022</span></div>
+                    <div class="clearfix"> <a href="onu.html" class="btn-link"
+                        target="_blank"> Lire la suite</a></div>
+                  </div>
+                </div>
+                <!-- ****************************** -->
+                <!--******************************* -->
+                <div class="item item-blog media" data-category="annonces" style="height:1500px;width:400px"><span
+                    style="color: #3333ff;"> </span>
+                  <div class="media-body"><span style="color: #3333ff;"> </span>
+                    <div class="clearfix"> <a href="https://heyzine.com/flip-book/b81910f601.html"
+                        class="btn-link" target="_blank">𝕃𝕒
+                        𝕓𝕚𝕠𝕕𝕚𝕧𝕖𝕣𝕤𝕚𝕥é 𝕔𝕠𝕟𝕥𝕣𝕚𝕓𝕦𝕖 à
+                        𝕡𝕣𝕠𝕥é𝕘𝕖𝕣 𝕟𝕠𝕥𝕣𝕖 𝕤𝕒𝕟𝕥é...</a></div>
+                    <div style="text-align: center;">
+                      <h6><span style="font-family: Kalapi;"><a href="https://heyzine.com/flip-book/b81910f601.html"><img
+                              src="https://www.ird.fr/sites/ird_fr/files/styles/medium_300/public/2022-04/Affiche%20LFDP%20A3%20Logos.jpg?itok=73IcCHRJ"
+                              style="width: 190px;" class="drop_ombre"></a><br>
                         </span></h6>
+                    </div>
+                    <h6> </h6>
+                    <div style="text-align: left;">
+                      <h6> </h6>
+                      <h6>𝕃𝕒 𝕓𝕚𝕠𝕕𝕚𝕧𝕖𝕣𝕤𝕚𝕥é 𝕔𝕠𝕟𝕥𝕣𝕚𝕓𝕦𝕖 à
+                        𝕡𝕣𝕠𝕥é𝕘𝕖𝕣 𝕟𝕠𝕥𝕣𝕖 𝕤𝕒𝕟𝕥é La pandémie de
+                        Covid-19 pourrait être la première d’une longue série,
+                        si l’on continue à détruire la Terre. Ce lien entre
+                        zoonoses, d’origine animale, et biodiversité est au
+                        centre du dernier film de Marie-Monique Robin, La
+                        Fabrique de Pandémies, diffusé à partir du 22 mai.......</h6>
+                      <p><br>
+                      </p>
+                      <h6> </h6>
+                    </div>
+                    <div class="clearfix"><span style="color: red;background-color: white;font-size:0.75em">20
+                        mai 2022</span></div>
+                    <div class="clearfix">
+                      <h6> <a href="https://heyzine.com/flip-book/b81910f601.html"
+                          class="btn-link" target="_blank"> Lire la suite</a></h6>
+                    </div>
+                    <h6>
+                      <!-- ****************************** -->
+                      <!--******************************* --> </h6>
+                  </div>
+                </div>
+                <div class="item item-blog media" data-category="annonces" style="min-height:500px;width:400px">
+                  <h6><span style="color: #3333ff;"> </span> </h6>
+                  <div class="media-body">
+                    <h6><span style="color: #3333ff;"> </span> </h6>
+                    <div class="clearfix">
+                      <h6> <a href="vert%20de%20rage.html" class="btn-link" target="_blank">
+                          ℙ𝕠𝕝𝕝𝕦𝕥𝕚𝕠𝕟 𝕕𝕖 𝕄𝕖𝕥𝕒𝕝𝕖𝕦𝕣𝕠𝕡 à
+                          É𝕧𝕚𝕟𝕄𝕒𝕝𝕞𝕒𝕚𝕤𝕠𝕟 : 𝕕𝕖𝕤 𝕕𝕠𝕟𝕟é𝕖𝕤
+                          «𝕚𝕟𝕢𝕦𝕚é𝕥𝕒𝕟𝕥𝕖𝕤 </a></h6>
+                    </div>
+                    <h6> </h6>
+                    <div style="text-align: center;">
+                      <h6><span style="font-family: Kalapi;"><a href="vert%20de%20rage.html"><img
+                              src="https://lvdneng.rosselcdn.net/sites/default/files/dpistyles_v2/vdn_864w/2022/04/23/node_1170356/55295795/public/2022/04/23/B9730680910Z.1_20220423161628_000%2BGHRKBN8GA.1-0.jpg?itok=SBH84A4Y1650735454"
+                              alt="" style="width: 190px;" class="drop_ombre"></a><br>
+                        </span></h6>
+                    </div>
+                    <h6> </h6>
+                    <div style="text-align: left;">
+                      <h6> </h6>
+                      <h6>Une équipe de l’émission « Vert de rage », diffusée
+                        sur France 5, enquête depuis un an sur la pollution
+                        léguée par Metaleurop, près de vingt ans après la
+                        fermeture de cette fonderie. Le fruit de son enquête
+                        sera dévoilé ce vendredi par plusieurs scientifiques qui
+                        ont apporté leur expertise au futur documentaire.</h6>
+                      <h6> </h6>
+                    </div>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6><span style="color: red;background-color: white;font-size:0.75em">25
+                          avril 2022</span></h6>
+                    </div>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6> <a href="vert%20de%20rage.html" class="btn-link" target="_blank">
+                          Lire la suite</a></h6>
+                    </div>
+                    <h6> </h6>
+                  </div>
+                  <h6> </h6>
+                </div>
+                <h6>
+                  <!-- ****************************** -->
+                  <!--******************************* --> </h6>
+                <div class="item item-blog media" data-category="annonces" style="height:1500px">
+                  <h6> </h6>
+                  <div class="media-body">
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6>&nbsp;&nbsp; </h6>
+                      <h6> <a href="compostage.html" target="_blank">𝕃𝕖
+                          𝕔𝕠𝕞𝕡𝕠𝕤𝕥 𝕤𝕖𝕣𝕒 𝕠𝕓𝕝𝕚𝕘𝕒𝕥𝕠𝕚𝕣𝕖 𝕖𝕟
+                          𝔽𝕣𝕒𝕟𝕔𝕖 𝕖𝕟 𝟚𝟘𝟚𝟛 : Ê𝕥𝕖𝕤-𝕧𝕠𝕦𝕤 𝕡𝕣Ê𝕥
+                          <br>
+                        </a></h6>
+                    </div>
+                    <h6> </h6>
+                    <h6> <span style="font-family: Kalam;">Le tri des déchets
+                        organiques deviendra obligatoire&nbsp; en 2023.&nbsp; Il
+                        faudra donc produire notre propre compost ! </span></h6>
+                    <h6> </h6>
+                    <h6> </h6>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6> <span style="color: red;background-color: white;font-size:0.75em"><br>
+                        </span></h6>
+                    </div>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6><span style="color: red;background-color: white;font-size:0.75em">8
+                          avril 2022</span></h6>
+                    </div>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6><br>
+                        <a href="compostage.html" class="btn-link" target="_blank">
+                          Lire la suite</a></h6>
+                    </div>
+                    <h6> </h6>
+                  </div>
+                  <h6> </h6>
+                </div>
+                <h6>
+                  <!-- ****************************** -->
+                  <!--******************************* --> </h6>
+                <div class="item item-blog media" data-category="annonces" style="height:1500px;width:400px">
+                  <h6> </h6>
+                  <div class="media-body">
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6>&nbsp;&nbsp; </h6>
+                      <h6> <a href="https://online.fliphtml5.com/gvflu/kqzg/#p=1"
+                          target="_blank">ℂ𝕆𝕃𝕃𝔼ℂ𝕋𝔼 𝔻𝔼𝕊 𝕍É𝔾É𝕋𝔸𝕌𝕏<br>
+                          𝗔𝗚𝗚𝗟𝗢 Hénin Carvin</a></h6>
+                    </div>
+                    <h6> </h6>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6> <iframe style="width:400px;height:250px" src="https://online.fliphtml5.com/gvflu/kqzg/"
+                          seamless="seamless" scrolling="no" allowtransparency="true"
+                          allowfullscreen="true" frameborder="0">&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;br&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+                          </iframe><span style="color: red;background-color: white;font-size:0.75em">
+                        </span></h6>
+                    </div>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6><span style="color: red;background-color: white;font-size:0.75em">3
+                          avril 2022</span></h6>
+                    </div>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6><br>
+                        <a href="https://online.fliphtml5.com/gvflu/kqzg/#p=1" class="btn-link"
+                          target="_blank"> Lire la suite</a></h6>
+                    </div>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6><span style="color: red;background-color: white;font-size:0.75em"><br>
+                        </span></h6>
+                    </div>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6><span style="color: red;background-color: white;font-size:0.75em"></span>
+                      </h6>
+                    </div>
+                    <h6> </h6>
+                  </div>
+                  <h6> </h6>
+                </div>
+                <h6>
+                  <!-- ****************************** -->
+                  <!--******************************* --> </h6>
+                <div class="item item-blog media" data-category="annonces" style="height:1500px;width:300px">
+                  <h6> </h6>
+                  <div class="media-body">
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6>&nbsp;&nbsp; </h6>
+                      <h6> <a href="TEOM.html" target="_blank">ℂ𝔸ℍℂ<br>
+                          𝕃’𝕒𝕦𝕘𝕞𝕖𝕟𝕥𝕒𝕥𝕚𝕠𝕟 𝕕𝕖 𝕝𝕒 𝕥𝕒𝕩𝕖 𝕤𝕦𝕣
+                          𝕝𝕖𝕤 𝕠𝕣𝕕𝕦𝕣𝕖𝕤 𝕞é𝕟𝕒𝕘è𝕣𝕖𝕤 𝕧𝕠𝕥é𝕖</a></h6>
+                    </div>
+                    <h6> </h6>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6> </h6>
+                      <div style="text-align: left;">
+                        <h6> </h6>
+                        <h6> <span style="color: black;font-size:1em"><span style="color: black;">La
+                              taxe d’enlèvement des ordures ménagères sera bel
+                              et bien multipliée par cinq dans l’agglomération
+                              d’Hénin-Carvin. Le vote a été finalement moins
+                              serré qu’attendu, les élus « sceptiques »
+                              préférant s’abstenir plutôt que de voter contre.</span>..<br>
+                          </span></h6>
+                        <h6> </h6>
+                      </div>
+                      <h6> </h6>
+                    </div>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6><span style="color: red;background-color: white;font-size:0.75em">3
+                          avril 2022</span></h6>
+                    </div>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6><br>
+                        <a href="TEOM.html" class="btn-link" target="_blank">
+                          Lire la suite</a></h6>
+                    </div>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6><span style="color: red;background-color: white;font-size:0.75em"><br>
+                        </span></h6>
+                    </div>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6><span style="color: red;background-color: white;font-size:0.75em"></span>
+                      </h6>
+                    </div>
+                    <h6> </h6>
+                  </div>
+                  <h6> </h6>
+                </div>
+                <h6>
+                  <!-- ****************************** -->
+                  <!--******************************* --> </h6>
+                <div class="item item-blog media" data-category="annonces" style="height:1500px">
+                  <h6> </h6>
+                  <div class="media-body">
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6>&nbsp; &nbsp; <img src="../../medias/images/story1.gif"
+                          style="width: 267px; height: 271px; margin-top: 16px; margin-left: -12px;"
+                          class="drop_ombre"><span style="color: red;background-color: white;font-size:0.75em"><br>
+                        </span></h6>
+                    </div>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6><span style="color: red;background-color: white;font-size:0.75em">13
+                          mars 2022</span></h6>
+                    </div>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6><span style="color: red;background-color: white;font-size:0.75em"></span>
+                      </h6>
+                    </div>
+                    <h6> </h6>
+                  </div>
+                  <h6> </h6>
+                </div>
+                <h6>
+                  <!-- ****************************** -->
+                  <!--******************************* --> </h6>
+                <div class="item item-blog media" data-category="annonces" style="height:1500px">
+                  <h6> </h6>
+                  <div class="media-body">
+                    <h6> </h6>
+                    <div class="clearfix" style="text-align: center;">
+                      <h6> </h6>
+                      <h6>&nbsp; <a href="https://online.fliphtml5.com/gvflu/lmrp/#p=1">𝕃𝕖
+                          𝕔𝕙𝕒𝕟𝕥𝕚𝕖𝕣 𝕕𝕖 𝕝𝕒 𝕔𝕖𝕟𝕥𝕣𝕒𝕝𝕖
+                          𝕤𝕠𝕝𝕒𝕚𝕣𝕖 𝕕𝕖 𝕃𝕖𝕗𝕠𝕣𝕖𝕤𝕥 𝕕é𝕞𝕒𝕣𝕣𝕖
+                          𝕖𝕟𝕗𝕚𝕟.</a></h6>
+                      <h6> </h6>
+                    </div>
+                    <h6> </h6>
+                    <div class="clearfix" style="text-align: center;">
+                      <h6><a href="https://online.fliphtml5.com/gvflu/lmrp/#p=1"><br>
+                        </a></h6>
+                    </div>
+                    <h6> </h6>
+                    <div class="clearfix" style="text-align: center;">
+                      <h6><span style="color: black;"><a href="https://online.fliphtml5.com/gvflu/lmrp/#p=1"><img
+                              src="../../medias/images/photovolta%C3%AFque2.png"
+                              style="width: 192px; height: 135px; margin-left: 32px;"></a><span
+                            style="background-color: white; font-size: 0.75em;"><br>
+                          </span></span></h6>
+                    </div>
+                    <h6> <span style="color: black;"> </span> </h6>
+                    <div class="clearfix" style="text-align: center;">
+                      <h6> </h6>
+                      <h6><span style="color: red;background-color: transparent;font-size:0.75em"><span
+                            style="color: black; font-family: Purisa;">Pour
+                            l’instant le chantier commence par la création des
+                            pistes pour permettre aux engins de circuler.<br>
+                            Pour éviter de détruire la couche végétale
+                            superficielle du site, les travaux débuteront aux
+                            beaux jours, donc de juin à septembre. En principe
+                            la mise en service est toujours prévue en fin du
+                            mois de décembre 2022… Rappelons que ce projet est
+                            porté par la communauté d’agglomérations Hénin
+                            Carvin (CAHC).</span><br>
+                        </span></h6>
+                      <h6> </h6>
+                    </div>
+                    <h6> </h6>
+                    <div class="clearfix" style="text-align: center;">
+                      <h6><span style="color: red;background-color: white;font-size:0.75em">28
+                          fevrier 2022</span></h6>
+                    </div>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6><a href="https://online.fliphtml5.com/gvflu/lmrp/#p=1"
+                          class="btn-link" target="_blank"> Lire la suite</a></h6>
                       <h6> </h6>
                     </div>
                     <h6> </h6>
                   </div>
                   <h6> </h6>
-                  <div class="clearfix">
-                    <h6><span style="color: red;background-color: white;font-size:0.75em">3
-                        avril 2022</span></h6>
-                  </div>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6><br>
-                      <a href="https://leforestenvironnement.github.io/annonces.com/blog/annonces/TEOM.html"
-                        class="btn-link" target="_blank"> Lire la suite</a></h6>
-                  </div>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6><span style="color: red;background-color: white;font-size:0.75em"><br>
-                      </span></h6>
-                  </div>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6><span style="color: red;background-color: white;font-size:0.75em"></span>
-                    </h6>
-                  </div>
-                  <h6> </h6>
                 </div>
-                <h6> </h6>
-              </div>
-              <h6>
-                <!-- ****************************** -->
-                <!--******************************* --> </h6>
-              <div class="item item-blog media" data-category="annonces" style="height:1500px">
-                <h6> </h6>
-                <div class="media-body">
+                <h6>
+                  <!-- ****************************** -->
+                  <!--******************************* --> </h6>
+                <div class="item item-blog media" data-category="annonces" style="height:1500px">
                   <h6> </h6>
-                  <div class="clearfix">
-                    <h6>&nbsp; &nbsp; <img src="https://leforestenvironnement.github.io/annonces.com/medias/images/story1.gif"
-                        style="width: 267px; height: 271px; margin-top: 16px; margin-left: -12px;"
-                        class="drop_ombre"><span style="color: red;background-color: white;font-size:0.75em"><br>
-                      </span></h6>
-                  </div>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6><span style="color: red;background-color: white;font-size:0.75em">13
-                        mars 2022</span></h6>
-                  </div>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6><span style="color: red;background-color: white;font-size:0.75em"></span>
-                    </h6>
-                  </div>
-                  <h6> </h6>
-                </div>
-                <h6> </h6>
-              </div>
-              <h6>
-                <!-- ****************************** -->
-                <!--******************************* --> </h6>
-              <div class="item item-blog media" data-category="annonces" style="height:1500px">
-                <h6> </h6>
-                <div class="media-body">
-                  <h6> </h6>
-                  <div class="clearfix" style="text-align: center;">
+                  <div class="media-body">
                     <h6> </h6>
-                    <h6>&nbsp; <a href="https://online.fliphtml5.com/gvflu/lmrp/#p=1">𝕃𝕖
-                        𝕔𝕙𝕒𝕟𝕥𝕚𝕖𝕣 𝕕𝕖 𝕝𝕒 𝕔𝕖𝕟𝕥𝕣𝕒𝕝𝕖
-                        𝕤𝕠𝕝𝕒𝕚𝕣𝕖 𝕕𝕖 𝕃𝕖𝕗𝕠𝕣𝕖𝕤𝕥 𝕕é𝕞𝕒𝕣𝕣𝕖
-                        𝕖𝕟𝕗𝕚𝕟.</a></h6>
+                    <div class="clearfix">
+                      <h6>&nbsp; &nbsp;<a href="https://online.fliphtml5.com/gvflu/qdxp/">
+                          ℙ𝕃𝔸ℕ ℕ𝔸𝕋𝕀𝕆ℕ𝔸𝕃 𝔻’𝔸𝕊𝕊𝕀𝕊𝕋𝔸ℕℂ𝔼 𝔸𝕌𝕏
+                          ℙ𝔼ℝ𝕊𝕆ℕℕ𝔼𝕊 É𝕃𝔼ℂ𝕋ℝ𝕆-ℍ𝕐ℙ𝔼ℝ-𝕊𝔼ℕ𝕊𝕀𝔹𝕃𝔼𝕊</a><img
+                          src="../../medias/images/pollution-electromagnetique-sante-1365C.jpg"
+                          alt=""><span style="color: red;background-color: white;font-size:0.75em">19
+                          fevrier 2022</span></h6>
+                    </div>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6><a href="https://online.fliphtml5.com/gvflu/qdxp/" class="btn-link"
+                          target="_blank"> Lire la suite</a></h6>
+                      <h6> </h6>
+                    </div>
                     <h6> </h6>
                   </div>
                   <h6> </h6>
-                  <div class="clearfix" style="text-align: center;">
-                    <h6><a href="https://online.fliphtml5.com/gvflu/lmrp/#p=1"><br>
+                </div>
+                <h6>
+                  <!-- ****************************** -->
+                  <!--******************************* --> </h6>
+                <div class="item item-blog media" data-category="annonces" style="height:1500px">
+                  <h6> </h6>
+                  <div class="media-body">
+                    <h6> </h6>
+                    <div class="clearfix" style="height:450px; margin-top: -45px;">
+                      <h6>&nbsp; &nbsp; <img src="../../medias/images/sobri%C3%A9t%C3%A9.gif"
+                          alt="" style="width: 237px; height: 421px;"></h6>
+                    </div>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6><span style="color: red;background-color: white;font-size:0.75em">12
+                          fevrier 2022</span></h6>
+                      <h6> </h6>
+                    </div>
+                    <h6> </h6>
+                  </div>
+                  <h6> </h6>
+                </div>
+                <h6>
+                  <!-- ****************************** -->
+                  <!--******************************* --> </h6>
+                <div class="item item-blog media" data-category="annonces">
+                  <h6> </h6>
+                  <div class="media-body">
+                    <h6> </h6>
+                    <h6><a href="voie_verte.html" title="Voie verte" target="_blank">Voie
+                        verte à Leforest (62790)<br>
                       </a></h6>
-                  </div>
-                  <h6> </h6>
-                  <div class="clearfix" style="text-align: center;">
-                    <h6><span style="color: black;"><a href="https://online.fliphtml5.com/gvflu/lmrp/#p=1"><img
-                            src="../../medias/images//photovolta%C3%AFque2.png"
-                            style="width: 192px; height: 135px; margin-left: 32px;"></a><span
-                          style="background-color: white; font-size: 0.75em;"><br>
-                        </span></span></h6>
-                  </div>
-                  <h6> <span style="color: black;"> </span> </h6>
-                  <div class="clearfix" style="text-align: center;">
                     <h6> </h6>
-                    <h6><span style="color: red;background-color: transparent;font-size:0.75em"><span
-                          style="color: black; font-family: Purisa;">Pour
-                          l’instant le chantier commence par la création des
-                          pistes pour permettre aux engins de circuler.<br>
-                          Pour éviter de détruire la couche végétale
-                          superficielle du site, les travaux débuteront aux
-                          beaux jours, donc de juin à septembre. En principe la
-                          mise en service est toujours prévue en fin du mois de
-                          décembre 2022… Rappelons que ce projet est porté par
-                          la communauté d’agglomérations Hénin Carvin (CAHC).</span><br>
-                      </span></h6>
+                    <div class="clearfix">
+                      <h6> <a href="../../medias/images/logo-levert-1.png" title="Logo levert 1"><img
+                            src="../../medias/images/logo-levert-1.png%3Ffx=c_50_50"
+                            alt="Logo levert 1" height="50" width="50"></a> <a
+                          href="../../medias/images/image-communique-1.png" title="Image communique 1"><img
+                            src="../../medias/images/image-communique-1.png" alt="Image communique 1"
+                            style="width: 50px; height: 50px;"><br>
+                        </a></h6>
+                    </div>
                     <h6> </h6>
-                  </div>
-                  <h6> </h6>
-                  <div class="clearfix" style="text-align: center;">
-                    <h6><span style="color: red;background-color: white;font-size:0.75em">28
-                        fevrier 2022</span></h6>
-                  </div>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6><a href="https://online.fliphtml5.com/gvflu/lmrp/#p=1" class="btn-link"
-                        target="_blank"> Lire la suite</a></h6>
+                    <div class="clearfix">
+                      <h6> </h6>
+                      <h6> <span style="font-family: Chilanka;">Profondément
+                          sensibilisée par les questions d’environnement, le
+                          souci d’améliorer le cadre de vie des concitoyens n’a
+                          de cesse pour la municipalité. Lors du conseil
+                          municipal de Leforest (62790), en fin de Janvier, a
+                          été évoqué le projet de « voie verte » :</span></h6>
+                      <h6> </h6>
+                    </div>
                     <h6> </h6>
-                  </div>
-                  <h6> </h6>
-                </div>
-                <h6> </h6>
-              </div>
-              <h6>
-                <!-- ****************************** -->
-                <!--******************************* --> </h6>
-              <div class="item item-blog media" data-category="annonces" style="height:1500px">
-                <h6> </h6>
-                <div class="media-body">
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6>&nbsp; &nbsp;<a href="https://online.fliphtml5.com/gvflu/qdxp/">
-                        ℙ𝕃𝔸ℕ ℕ𝔸𝕋𝕀𝕆ℕ𝔸𝕃 𝔻’𝔸𝕊𝕊𝕀𝕊𝕋𝔸ℕℂ𝔼 𝔸𝕌𝕏
-                        ℙ𝔼ℝ𝕊𝕆ℕℕ𝔼𝕊 É𝕃𝔼ℂ𝕋ℝ𝕆-ℍ𝕐ℙ𝔼ℝ-𝕊𝔼ℕ𝕊𝕀𝔹𝕃𝔼𝕊</a><img
-                        src="https://leforestenvironnement.github.io/annonces.com/medias/images/pollution-electromagnetique-sante-1365C.jpg"
-                        alt=""><span style="color: red;background-color: white;font-size:0.75em">19
-                        fevrier 2022</span></h6>
-                  </div>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6><a href="https://online.fliphtml5.com/gvflu/qdxp/" class="btn-link"
-                        target="_blank"> Lire la suite</a></h6>
+                    <div style="text-align: center;">
+                      <h6> </h6>
+                    </div>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6><span style="color: red;background-color: white;font-size:0.75em">10
+                          fevrier 2022</span></h6>
+                      <h6> </h6>
+                    </div>
+                    <h6> </h6>
+                    <h6> <a href="voie_verte.html" class="btn-link" target="_blank">
+                        Lire la suite</a> </h6>
                     <h6> </h6>
                   </div>
                   <h6> </h6>
                 </div>
-                <h6> </h6>
-              </div>
-              <h6>
-                <!-- ****************************** -->
-                <!--******************************* --> </h6>
-              <div class="item item-blog media" data-category="annonces" style="height:1500px">
-                <h6> </h6>
-                <div class="media-body">
+                <h6>
+                  <!-- ****************************** -->
+                  <!--******************************* --> </h6>
+                <div class="item item-blog media" data-category="annonces">
                   <h6> </h6>
-                  <div class="clearfix" style="height:450px; margin-top: -45px;">
-                    <h6>&nbsp; &nbsp; <img src="https://leforestenvironnement.github.io/annonces.com/medias/images/sobri%C3%A9t%C3%A9.gif"
-                        alt="" style="width: 237px; height: 421px;"></h6>
-                  </div>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6><span style="color: red;background-color: white;font-size:0.75em">12
-                        fevrier 2022</span></h6>
+                  <div class="media-body">
+                    <h6> </h6>
+                    <h6><a href="https://online.slidehtml5.com/nmrs/nzid/index.html"
+                        title="Verger citoyen" target="_blank">Le verger citoyen</a></h6>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6> <a href="../../medias/images/logo-levert-1.png" title="Logo levert 1"><img
+                            src="../../medias/images/logo-levert-1.png%3Ffx=c_50_50"
+                            alt="Logo levert 1" height="50" width="50"></a> <a
+                          href="../../medias/images/image-communique-1.png" title="Image communique 1"><img
+                            src="../../medias/images/image-communique-1.png" alt="Image communique 1"
+                            style="width: 50px; height: 50px;"><br>
+                        </a></h6>
+                    </div>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6> </h6>
+                      <h6> </h6>
+                    </div>
+                    <h6> </h6>
+                    <div style="text-align: center;">
+                      <h6> </h6>
+                      <h6><span style="color: black;"> LA PLANTATION D'UN VERGER
+                          CITOYEN AURA LIEU LE MERCREDI 2 FEVRIER 2002 À
+                          LEFOREST ( PAS-DE-CALAIS) DANS LE QUARTIER DIT DU
+                          PLANTY RUE DE PIERREFORT.</span></h6>
+                      <h6> </h6>
+                    </div>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6><span style="color: red;background-color: white;font-size:0.75em">2
+                          fevrier 2022</span></h6>
+                      <h6> </h6>
+                    </div>
+                    <h6> </h6>
+                    <h6> <a href="https://online.slidehtml5.com/nmrs/nzid/index.html"
+                        class="btn-link" target="_blank"> Lire la suite</a> </h6>
                     <h6> </h6>
                   </div>
                   <h6> </h6>
                 </div>
-                <h6> </h6>
-              </div>
-              <h6>
-                <!-- ****************************** -->
-                <!--******************************* --> </h6>
-              <div class="item item-blog media" data-category="annonces">
-                <h6> </h6>
-                <div class="media-body">
+                <h6>
+                  <!-- ****************************** -->
+                  <!--******************************* --> </h6>
+                <div class="item item-blog media" data-category="annonces">
                   <h6> </h6>
-                  <h6><a href="../../blog/annonces/voie_verte.html" title="Voie verte"
-                      target="_blank">Voie verte à Leforest (62790)<br>
-                    </a></h6>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6> <a href="../../medias/images/logo-levert-1.png" title="Logo levert 1"><img
-                          src="../../medias/images/logo-levert-1.png%3Ffx=c_50_50"
-                          alt="Logo levert 1" height="50" width="50"></a> <a href="../../medias/images/image-communique-1.png"
-                        title="Image communique 1"><img src="../../medias/images/image-communique-1.png"
-                          alt="Image communique 1" style="width: 50px; height: 50px;"><br>
-                      </a></h6>
-                  </div>
-                  <h6> </h6>
-                  <div class="clearfix">
+                  <div class="media-body">
                     <h6> </h6>
-                    <h6> <span style="font-family: Chilanka;">Profondément
-                        sensibilisée par les questions d’environnement, le souci
-                        d’améliorer le cadre de vie des concitoyens n’a de cesse
-                        pour la municipalité. Lors du conseil municipal de
-                        Leforest (62790), en fin de Janvier, a été évoqué le
-                        projet de « voie verte » :</span></h6>
+                    <h6><a href="http://www.leslignesbougent.org/petitions/non-a-la-5g-a-courcelles-les-lens-pas-de-calais-un-deploiement-criminel-6271/"
+                        title="Non à la 5G Courcelles les Lens" target="_blank">NON
+                        A LA 5G, à Courcelles-lès-Lens (Pas-de-Calais) ; un
+                        déploiement criminel</a></h6>
                     <h6> </h6>
-                  </div>
-                  <h6> </h6>
-                  <div style="text-align: center;">
-                    <h6> </h6>
-                  </div>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6><span style="color: red;background-color: white;font-size:0.75em">10
-                        fevrier 2022</span></h6>
-                    <h6> </h6>
-                  </div>
-                  <h6> </h6>
-                  <h6> <a href="../../blog/annonces/voie_verte.html" class="btn-link"
-                      target="_blank"> Lire la suite</a> </h6>
-                  <h6> </h6>
-                </div>
-                <h6> </h6>
-              </div>
-              <h6>
-                <!-- ****************************** -->
-                <!--******************************* --> </h6>
-              <div class="item item-blog media" data-category="annonces">
-                <h6> </h6>
-                <div class="media-body">
-                  <h6> </h6>
-                  <h6><a href="https://online.slidehtml5.com/nmrs/nzid/index.html"
-                      title="Verger citoyen" target="_blank">Le verger citoyen</a></h6>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6> <a href="../../medias/images/logo-levert-1.png" title="Logo levert 1"><img
-                          src="../../medias/images/logo-levert-1.png%3Ffx=c_50_50"
-                          alt="Logo levert 1" height="50" width="50"></a> <a href="../../medias/images/image-communique-1.png"
-                        title="Image communique 1"><img src="../../medias/images/image-communique-1.png"
-                          alt="Image communique 1" style="width: 50px; height: 50px;"><br>
-                      </a></h6>
-                  </div>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6> </h6>
-                    <h6> </h6>
-                  </div>
-                  <h6> </h6>
-                  <div style="text-align: center;">
-                    <h6> </h6>
-                    <h6><span style="color: black;"> LA PLANTATION D'UN VERGER
-                        CITOYEN AURA LIEU LE MERCREDI 2 FEVRIER 2002 À LEFOREST
-                        ( PAS-DE-CALAIS) DANS LE QUARTIER DIT DU PLANTY RUE DE
-                        PIERREFORT.</span></h6>
-                    <h6> </h6>
-                  </div>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6><span style="color: red;background-color: white;font-size:0.75em">2
-                        fevrier 2022</span></h6>
-                    <h6> </h6>
-                  </div>
-                  <h6> </h6>
-                  <h6> <a href="https://online.slidehtml5.com/nmrs/nzid/index.html"
-                      class="btn-link" target="_blank"> Lire la suite</a> </h6>
-                  <h6> </h6>
-                </div>
-                <h6> </h6>
-              </div>
-              <h6>
-                <!-- ****************************** -->
-                <!--******************************* --> </h6>
-              <div class="item item-blog media" data-category="annonces">
-                <h6> </h6>
-                <div class="media-body">
-                  <h6> </h6>
-                  <h6><a href="http://www.leslignesbougent.org/petitions/non-a-la-5g-a-courcelles-les-lens-pas-de-calais-un-deploiement-criminel-6271/"
-                      title="Non à la 5G Courcelles les Lens" target="_blank">NON
-                      A LA 5G, à Courcelles-lès-Lens (Pas-de-Calais) ; un
-                      déploiement criminel</a></h6>
-                  <h6> </h6>
-                  <h6><br>
-                  </h6>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6> <a href="../../medias/images/logo-levert-1.png" title="Logo levert 1"><img
-                          src="../../medias/images/logo-levert-1.png%3Ffx=c_50_50"
-                          alt="Logo levert 1" height="50" width="50"></a> <a href="../../medias/images/image-communique-1.png"
-                        title="Image communique 1"><img src="../../medias/images/image-communique-1.png"
-                          alt="Image communique 1" style="width: 50px; height: 50px;"><br>
-                      </a></h6>
-                  </div>
-                  <h6> </h6>
-                  <h6><span style="font-family: Chilanka;"><i>collectif ACCAD</i></span></h6>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6> <audio src="https://leforestenvironnement.github.io/annonces.com/medias/video/5g_courcelles.wav"
-                        preload="none" controls="controls" loop="loop" class="drop_ombre"></audio>
-                    </h6>
-                  </div>
-                  <h6> </h6>
-                  <div style="text-align: center;">
-                    <h6> <a href="http://www.leslignesbougent.org/petitions/non-a-la-5g-a-courcelles-les-lens-pas-de-calais-un-deploiement-criminel-6271/"
-                        target="_blank"><img src="https://cdn.leslignesbougent.org/petition/non-a-la-5g-a-courcelles-les-lens-pas-de-calais-un-deploiement-criminel-6271/image.png"
-                          alt="" style="width: 142px; height: 201px;"></a></h6>
-                  </div>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6><span style="color: red;background-color: white;font-size:0.75em">23
-                        Janvier 2022</span></h6>
-                    <h6> </h6>
-                  </div>
-                  <h6> </h6>
-                  <h6> <a href="%20http://www.leslignesbougent.org/petitions/non-a-la-5g-a-courcelles-les-lens-pas-de-calais-un-deploiement-criminel-6271/"
-                      class="btn-link" target="_blank"> Lire la suite</a> </h6>
-                  <h6> </h6>
-                </div>
-                <h6> </h6>
-              </div>
-              <h6>
-                <!-- ****************************** -->
-                <!--******************************* --> </h6>
-              <div class="item item-blog media" data-category="annonces">
-                <h6> </h6>
-                <div class="media-body">
-                  <h6> </h6>
-                  <h6><a href="https://online.slidehtml5.com/nmrs/eewh/index.html">Création
-                      d'un jardin citoyen&nbsp; Leforest 62790<br>
-                    </a></h6>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6> <a href="../../medias/images/logo-levert-1.png" title="Logo levert 1"><img
-                          src="../../medias/images/logo-levert-1.png%3Ffx=c_50_50"
-                          alt="Logo levert 1" height="50" width="50"></a> <a href="../../medias/images/image-communique-1.png"
-                        title="Image communique 1"><img src="../../medias/images/image-communique-1.png"
-                          alt="Image communique 1" height="80" width="80"><br>
-                      </a></h6>
-                  </div>
-                  <h6> </h6>
-                  <div class="clearfix">
                     <h6><br>
                     </h6>
-                  </div>
-                  <h6> </h6>
-                  <h6> <a href="https://online.slidehtml5.com/nmrs/eewh/index.html"
-                      class="btn-link"> Lire la suite</a> </h6>
-                  <h6> </h6>
-                </div>
-                <h6> </h6>
-              </div>
-              <h6>
-                <!-- ****************************** -->
-                <!--******************************* --> </h6>
-              <div class="item item-blog media" data-category="annonces">
-                <h6> </h6>
-                <h6> </h6>
-                <h6> </h6>
-                <div class="media-body" style="font-size: 0.75em;">
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6> <a href="https://leforestenvironnement.github.io/annonces.com/medias/images/logo-levert-1.png"
-                        title="Logo levert 1"><img src="https://leforestenvironnement.github.io/annonces.com/medias/images/logo-levert-1.png%3Ffx=c_50_50"
-                          alt="Logo levert 1" height="50" width="50"></a> <a href="https://leforestenvironnement.github.io/annonces.com/medias/images/image-communique-1.png"
-                        title="Image communique 1"><img src="https://leforestenvironnement.github.io/annonces.com/medias/images/image-communique-1.png"
-                          alt="Image communique 1" style="width: 52px; height: 50px;"><br>
-                      </a></h6>
-                  </div>
-                  <h6> </h6>
-                  <div style="text-align: left;">
                     <h6> </h6>
-                    <blockquote style="font-size: 0.75em; font-style: italic; text-align: left;">
-                      <h6> </h6>
-                      <h6>Permanence mensuelle LINKY</h6>
-                      <h6> </h6>
-                      <h6>Permanences à Leforest</h6>
-                      <h6> </h6>
-                      <h6> <span style="font-family: Purisa;font-size:1em">Elles
-                          sont terminées, si problème, écrire ou téléphoner au <br>
-                        </span></h6>
-                      <h6> </h6>
-                      <h6><span style="font-family: Purisa;font-size:1em">&nbsp;0321
-                          50 14 10</span> </h6>
-                      <h6> </h6>
-                      <h6><span style="color: black;">********** **********</span></h6>
-                      <h6> </h6>
-                      <h6>Réunions&nbsp; à Angres</h6>
-                      <h6> </h6>
-                      <h6><span style="color: black;">ouverte à toutes et tous</span></h6>
-                      <h6> </h6>
-                      <h6> </h6>
-                      <h6>PROCHAINES REUNIONS</h6>
-                      <h6> </h6>
-                      <h6><span style="color: black;"><span style="font-family: Purisa;font-size:1em">mardi
-                            18 janvier<br>
-                            mardi 1er février<br>
-                            mardi 15 février<br>
-                            de 18 h à 19 h 30<br>
-                          </span></span></h6>
-                      <h6> </h6>
-                      <h6>salle capet, rue de la maladrerie<span style="font-family: Purisa;">
-                        </span> <span style="font-family: Purisa;"> </span> </h6>
-                      <h6> </h6>
-                      <h6><span style="font-family: Purisa;"> </span></h6>
-                      <h6> <code>23 janvier 2022 </code></h6>
-                    </blockquote>
+                    <div class="clearfix">
+                      <h6> <a href="../../medias/images/logo-levert-1.png" title="Logo levert 1"><img
+                            src="../../medias/images/logo-levert-1.png%3Ffx=c_50_50"
+                            alt="Logo levert 1" height="50" width="50"></a> <a
+                          href="../../medias/images/image-communique-1.png" title="Image communique 1"><img
+                            src="../../medias/images/image-communique-1.png" alt="Image communique 1"
+                            style="width: 50px; height: 50px;"><br>
+                        </a></h6>
+                    </div>
                     <h6> </h6>
-                  </div>
-                  <h6> </h6>
-                  <div class="clearfix">
+                    <h6><span style="font-family: Chilanka;"><i>collectif ACCAD</i></span></h6>
                     <h6> </h6>
+                    <div class="clearfix">
+                      <h6> <audio src="../../medias/video/5g_courcelles.wav" preload="none"
+                          controls="controls" loop="loop" class="drop_ombre"></audio>
+                      </h6>
+                    </div>
                     <h6> </h6>
+                    <div style="text-align: center;">
+                      <h6> <a href="http://www.leslignesbougent.org/petitions/non-a-la-5g-a-courcelles-les-lens-pas-de-calais-un-deploiement-criminel-6271/"
+                          target="_blank"><img src="https://cdn.leslignesbougent.org/petition/non-a-la-5g-a-courcelles-les-lens-pas-de-calais-un-deploiement-criminel-6271/image.png"
+                            alt="" style="width: 142px; height: 201px;"></a></h6>
+                    </div>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6><span style="color: red;background-color: white;font-size:0.75em">23
+                          Janvier 2022</span></h6>
+                      <h6> </h6>
+                    </div>
+                    <h6> </h6>
+                    <h6> <a href="https://leforestenvironnement.github.io/annonces.com/blog/annonces/%20http://www.leslignesbougent.org/petitions/non-a-la-5g-a-courcelles-les-lens-pas-de-calais-un-deploiement-criminel-6271/"
+                        class="btn-link" target="_blank"> Lire la suite</a> </h6>
                     <h6> </h6>
                   </div>
                   <h6> </h6>
                 </div>
-                <h6> </h6>
-              </div>
-              <h6>
-                <!--******************************* -->
-                <!--******************************* --> </h6>
-              <div class="item item-blog media" data-category="annonces">
-                <h6> </h6>
-                <div class="media-body">
+                <h6>
+                  <!-- ****************************** -->
+                  <!--******************************* --> </h6>
+                <div class="item item-blog media" data-category="annonces">
                   <h6> </h6>
-                  <h6><a href="https://online.slidehtml5.com/nmrs/pmck/index.html?fbclid=IwAR2ITSQwHV5VpudnaVWL-VFOGigRD64A6w3dnGuQXZxY-0u-bYmEnmVzx4s"
-                      target="_blank">Les bonnes raisons d'adhérer à une
-                      association écologique<br>
-                    </a></h6>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6> <a href="https://leforestenvironnement.github.io/annonces.com/medias/images/logo-levert-1.png"
-                        title="Logo levert 1"><img src="https://leforestenvironnement.github.io/annonces.com/medias/images/logo-levert-1.png%3Ffx=c_50_50"
-                          alt="Logo levert 1" height="50" width="50"></a> <a href="https://leforestenvironnement.github.io/annonces.com/medias/images/image-communique-1.png"
-                        title="Image communique 1"><img src="https://leforestenvironnement.github.io/annonces.com/medias/images/image-communique-1.png"
-                          alt="Image communique 1" height="80" width="80"><br>
+                  <div class="media-body">
+                    <h6> </h6>
+                    <h6><a href="https://online.slidehtml5.com/nmrs/eewh/index.html">Création
+                        d'un jardin citoyen&nbsp; Leforest 62790<br>
                       </a></h6>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6> <a href="../../medias/images/logo-levert-1.png" title="Logo levert 1"><img
+                            src="../../medias/images/logo-levert-1.png%3Ffx=c_50_50"
+                            alt="Logo levert 1" height="50" width="50"></a> <a
+                          href="../../medias/images/image-communique-1.png" title="Image communique 1"><img
+                            src="../../medias/images/image-communique-1.png" alt="Image communique 1"
+                            height="80" width="80"><br>
+                        </a></h6>
+                    </div>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6><br>
+                      </h6>
+                    </div>
+                    <h6> </h6>
+                    <h6> <a href="https://online.slidehtml5.com/nmrs/eewh/index.html"
+                        class="btn-link"> Lire la suite</a> </h6>
+                    <h6> </h6>
                   </div>
                   <h6> </h6>
-                  <div style="text-align: left;">
+                </div>
+                <h6>
+                  <!-- ****************************** -->
+                  <!--******************************* --> </h6>
+                <div class="item item-blog media" data-category="annonces">
+                  <h6> </h6>
+                  <h6> </h6>
+                  <h6> </h6>
+                  <div class="media-body" style="font-size: 0.75em;">
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6> <a href="../../medias/images/logo-levert-1.png" title="Logo levert 1"><img
+                            src="../../medias/images/logo-levert-1.png%3Ffx=c_50_50"
+                            alt="Logo levert 1" height="50" width="50"></a> <a
+                          href="../../medias/images/image-communique-1.png" title="Image communique 1"><img
+                            src="../../medias/images/image-communique-1.png" alt="Image communique 1"
+                            style="width: 52px; height: 50px;"><br>
+                        </a></h6>
+                    </div>
+                    <h6> </h6>
+                    <div style="text-align: left;">
+                      <h6> </h6>
+                      <blockquote style="font-size: 0.75em; font-style: italic; text-align: left;">
+                        <h6> </h6>
+                        <h6>Permanence mensuelle LINKY</h6>
+                        <h6> </h6>
+                        <h6>Permanences à Leforest</h6>
+                        <h6> </h6>
+                        <h6> <span style="font-family: Purisa;font-size:1em">Elles
+                            sont terminées, si problème, écrire ou téléphoner au
+                            <br>
+                          </span></h6>
+                        <h6> </h6>
+                        <h6><span style="font-family: Purisa;font-size:1em">&nbsp;0321
+                            50 14 10</span> </h6>
+                        <h6> </h6>
+                        <h6><span style="color: black;">********** **********</span></h6>
+                        <h6> </h6>
+                        <h6>Réunions&nbsp; à Angres</h6>
+                        <h6> </h6>
+                        <h6><span style="color: black;">ouverte à toutes et tous</span></h6>
+                        <h6> </h6>
+                        <h6> </h6>
+                        <h6>PROCHAINES REUNIONS</h6>
+                        <h6> </h6>
+                        <h6><span style="color: black;"><span style="font-family: Purisa;font-size:1em">mardi
+                              18 janvier<br>
+                              mardi 1er février<br>
+                              mardi 15 février<br>
+                              de 18 h à 19 h 30<br>
+                            </span></span></h6>
+                        <h6> </h6>
+                        <h6>salle capet, rue de la maladrerie<span style="font-family: Purisa;">
+                          </span> <span style="font-family: Purisa;"> </span>
+                        </h6>
+                        <h6> </h6>
+                        <h6><span style="font-family: Purisa;"> </span></h6>
+                        <h6> <code>23 janvier 2022 </code></h6>
+                      </blockquote>
+                      <h6> </h6>
+                    </div>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6> </h6>
+                      <h6> </h6>
+                      <h6> </h6>
+                    </div>
+                    <h6> </h6>
+                  </div>
+                  <h6> </h6>
+                </div>
+                <h6>
+                  <!--******************************* -->
+                  <!--******************************* --> </h6>
+                <div class="item item-blog media" data-category="annonces">
+                  <h6> </h6>
+                  <div class="media-body">
+                    <h6> </h6>
+                    <h6><a href="https://online.slidehtml5.com/nmrs/pmck/index.html?fbclid=IwAR2ITSQwHV5VpudnaVWL-VFOGigRD64A6w3dnGuQXZxY-0u-bYmEnmVzx4s"
+                        target="_blank">Les bonnes raisons d'adhérer à une
+                        association écologique<br>
+                      </a></h6>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6> <a href="../../medias/images/logo-levert-1.png" title="Logo levert 1"><img
+                            src="../../medias/images/logo-levert-1.png%3Ffx=c_50_50"
+                            alt="Logo levert 1" height="50" width="50"></a> <a
+                          href="../../medias/images/image-communique-1.png" title="Image communique 1"><img
+                            src="../../medias/images/image-communique-1.png" alt="Image communique 1"
+                            height="80" width="80"><br>
+                        </a></h6>
+                    </div>
+                    <h6> </h6>
+                    <div style="text-align: left;">
+                      <h6> </h6>
+                      <blockquote>
+                        <h6> </h6>
+                        <h6><span style="font-family: Purisa;">Adhérer à une
+                            association écologique est une bonne action :
+                            Prendre conscience que l’écologie est présente dans
+                            la vie quotidienne et dans les gestes de chacun
+                            d’entre nous est une avancée importante pour mieux
+                            vivre ensemble. Une nouvelle conscience
+                            environnementale émerge aujourd’hui en France, et ce
+                            n’est qu’un début ! Il est important que chacun
+                            d’entre nous donne du sens à sa vie en s’engageant
+                            dans l’action. Notre association LEFOREST
+                            ENVIRONNEMENT peut vous donner cette opportunité.</span></h6>
+                        <h6> </h6>
+                      </blockquote>
+                      <h6> </h6>
+                    </div>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6><code>03 janvier 2022 </code></h6>
+                      <h6> </h6>
+                    </div>
+                    <h6> </h6>
+                    <h6> <a href="https://online.slidehtml5.com/nmrs/pmck/index.html?fbclid=IwAR2ITSQwHV5VpudnaVWL-VFOGigRD64A6w3dnGuQXZxY-0u-bYmEnmVzx4s"
+                        class="btn-link" target="_blank"> Lire la suite</a> </h6>
+                    <h6> </h6>
+                  </div>
+                  <h6> </h6>
+                </div>
+                <h6>
+                  <!--******************************* -->
+                  <!--******************************* --><a href="https://online.slidehtml5.com/nmrs/oqrg/index.html">
+                  </a> </h6>
+                <div class="item item-blog media" data-category="annonces">
+                  <h6> </h6>
+                  <h6> </h6>
+                  <h6> </h6>
+                  <div class="media-body">
+                    <h6> </h6>
+                    <h6><a href="./Pollution%20de%20Metaleurop%20:%20la%20douche%20froide%20pour%20les%20riverains.html"
+                        target="_blank">&nbsp;Pollution de Metaleurop : la
+                        douche froide pour les riverains<br>
+                      </a></h6>
+                    <h6> </h6>
+                    <h6><span style="font-family: Purisa;">Le tribunal
+                        administratif de Lille a rendu le 21 décembre 2021 un
+                        jugement qui aurait pu faire date. Soutenus par
+                        l’association PIGE, 87 habitants d’Évin-Malmaison, entre
+                        Douai et Lens, demandaient que soit reconnue une faute
+                        de l’État............</span></h6>
+                    <h6> </h6>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6><code>23 décembre 2021 </code></h6>
+                      <h6> </h6>
+                    </div>
+                    <h6> </h6>
+                    <h6> <a href="./Pollution%20de%20Metaleurop%20:%20la%20douche%20froide%20pour%20les%20riverains.html"
+                        class="btn-link" target="_blank"> Lire la suite</a> </h6>
+                    <h6> </h6>
+                  </div>
+                  <h6> </h6>
+                </div>
+                <h6>
+                  <!--******************************* -->
+                  <!--******************************* --><a href="InfoLettre-ACCAD+n%C2%B054.html">
+                  </a> </h6>
+                <div class="item item-blog media" data-category="annonces">
+                  <h6> </h6>
+                  <h6> </h6>
+                  <h6> </h6>
+                  <div class="media-body">
+                    <h6> </h6>
+                    <h6><a href="InfoLettre-ACCAD+n%C2%B054.html" target="_blank">&nbsp;InfoLettre-ACCAD
+                        n°54 du 20 décembre 2021<br>
+                      </a></h6>
+                    <h6> </h6>
+                    <h6><span style="font-family: Kalam;">INFORMATIONS DU
+                        COLLECTIF ACCAD<br>
+                        ​ Anti Compteurs Communicants Artois-62 Douaisis-59<br>
+                        <br>
+                        <a href="https://collectif-accad.fr">https://collectif-accad.fr</a></span></h6>
                     <h6> </h6>
                     <blockquote>
                       <h6> </h6>
-                      <h6><span style="font-family: Purisa;">Adhérer à une
-                          association écologique est une bonne action : Prendre
-                          conscience que l’écologie est présente dans la vie
-                          quotidienne et dans les gestes de chacun d’entre nous
-                          est une avancée importante pour mieux vivre ensemble.
-                          Une nouvelle conscience environnementale émerge
-                          aujourd’hui en France, et ce n’est qu’un début ! Il
-                          est important que chacun d’entre nous donne du sens à
-                          sa vie en s’engageant dans l’action. Notre association
-                          LEFOREST ENVIRONNEMENT peut vous donner cette
-                          opportunité.</span></h6>
+                    </blockquote>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6><code>21 décembre 2021 </code></h6>
+                      <h6> </h6>
+                    </div>
+                    <h6> </h6>
+                    <h6> <a href="InfoLettre-ACCAD+n%C2%B054.html" class="btn-link"
+                        target="_blank"> Lire la suite</a> </h6>
+                    <h6> </h6>
+                  </div>
+                  <h6> </h6>
+                </div>
+                <h6>
+                  <!--******************************* -->
+                  <!--******************************* --><a href="dechets_verts.html">
+                  </a> </h6>
+                <div class="item item-blog media" data-category="annonces">
+                  <h6> </h6>
+                  <h6> </h6>
+                  <h6> </h6>
+                  <div class="media-body">
+                    <h6> </h6>
+                    <h6><a href="dechets_verts.html">La collecte des déchets
+                        verts reprendra... une fois toutes les deux semaines <br>
+                      </a></h6>
+                    <h6> </h6>
+                    <blockquote>
+                      <h6> </h6>
+                      <h6><span style="text-align:left;font-size:0.7em;font-family: Purisa; line-height: 0.6em;color:black"><strong>Bonne
+                            nouvelle : la collecte en porte-à-porte des déchets
+                            végétaux reprendra finalement en avril dans les
+                            quatorze communes de l’agglomération d’Hénin-Carvin.
+                            Mauvaise nouvelle : ce ne sera plus qu’une fois
+                            toutes les deux semaines. Rejeté en octobre, ce
+                            changement a finalement été voté jeudi soir
+                            16/16/2021&nbsp; </strong></span></h6>
                       <h6> </h6>
                     </blockquote>
                     <h6> </h6>
-                  </div>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6><code>03 janvier 2022 </code></h6>
-                    <h6> </h6>
-                  </div>
-                  <h6> </h6>
-                  <h6> <a href="https://online.slidehtml5.com/nmrs/pmck/index.html?fbclid=IwAR2ITSQwHV5VpudnaVWL-VFOGigRD64A6w3dnGuQXZxY-0u-bYmEnmVzx4s"
-                      class="btn-link" target="_blank"> Lire la suite</a> </h6>
-                  <h6> </h6>
-                </div>
-                <h6> </h6>
-              </div>
-              <h6>
-                <!--******************************* -->
-                <!--******************************* --><a href="https://online.slidehtml5.com/nmrs/oqrg/index.html">
-                </a> </h6>
-              <div class="item item-blog media" data-category="annonces">
-                <h6> </h6>
-                <h6> </h6>
-                <h6> </h6>
-                <div class="media-body">
-                  <h6> </h6>
-                  <h6><a href="../../blog/annonces/Pollution%20de%20Metaleurop%20:%20la%20douche%20froide%20pour%20les%20riverains.html"
-                      target="_blank">&nbsp;Pollution de Metaleurop : la douche
-                      froide pour les riverains<br>
-                    </a></h6>
-                  <h6> </h6>
-                  <h6><span style="font-family: Purisa;">Le tribunal
-                      administratif de Lille a rendu le 21 décembre 2021 un
-                      jugement qui aurait pu faire date. Soutenus par
-                      l’association PIGE, 87 habitants d’Évin-Malmaison, entre
-                      Douai et Lens, demandaient que soit reconnue une faute de
-                      l’État............</span></h6>
-                  <h6> </h6>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6><code>23 décembre 2021 </code></h6>
-                    <h6> </h6>
-                  </div>
-                  <h6> </h6>
-                  <h6> <a href="../../blog/annonces/Pollution%20de%20Metaleurop%20:%20la%20douche%20froide%20pour%20les%20riverains.html"
-                      class="btn-link" target="_blank"> Lire la suite</a> </h6>
-                  <h6> </h6>
-                </div>
-                <h6> </h6>
-              </div>
-              <h6>
-                <!--******************************* -->
-                <!--******************************* --><a href="../../blog/annonces/InfoLettre-ACCAD%20n%C2%B054.html">
-                </a> </h6>
-              <div class="item item-blog media" data-category="annonces">
-                <h6> </h6>
-                <h6> </h6>
-                <h6> </h6>
-                <div class="media-body">
-                  <h6> </h6>
-                  <h6><a href="../../blog/annonces/InfoLettre-ACCAD%20n%C2%B054.html"
-                      target="_blank">&nbsp;InfoLettre-ACCAD n°54 du 20 décembre
-                      2021<br>
-                    </a></h6>
-                  <h6> </h6>
-                  <h6><span style="font-family: Kalam;">INFORMATIONS DU
-                      COLLECTIF ACCAD<br>
-                      ​ Anti Compteurs Communicants Artois-62 Douaisis-59<br>
-                      <br>
-                      <a href="https://collectif-accad.fr">https://collectif-accad.fr</a></span></h6>
-                  <h6> </h6>
-                  <blockquote>
-                    <h6> </h6>
-                  </blockquote>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6><code>21 décembre 2021 </code></h6>
-                    <h6> </h6>
-                  </div>
-                  <h6> </h6>
-                  <h6> <a href="../../blog/annonces/InfoLettre-ACCAD%20n%C2%B054.html"
-                      class="btn-link" target="_blank"> Lire la suite</a> </h6>
-                  <h6> </h6>
-                </div>
-                <h6> </h6>
-              </div>
-              <h6>
-                <!--******************************* -->
-                <!--******************************* --><a href="../../blog/annonces/dechets_verts.html">
-                </a> </h6>
-              <div class="item item-blog media" data-category="annonces">
-                <h6> </h6>
-                <h6> </h6>
-                <h6> </h6>
-                <div class="media-body">
-                  <h6> </h6>
-                  <h6><a href="../../blog/annonces/dechets_verts.html">La
-                      collecte des déchets verts reprendra... une fois toutes
-                      les deux semaines <br>
-                    </a></h6>
-                  <h6> </h6>
-                  <blockquote>
-                    <h6> </h6>
-                    <h6><span style="text-align:left;font-size:0.7em;font-family: Purisa; line-height: 0.6em;color:black"><strong>Bonne
-                          nouvelle : la collecte en porte-à-porte des déchets
-                          végétaux reprendra finalement en avril dans les
-                          quatorze communes de l’agglomération d’Hénin-Carvin.
-                          Mauvaise nouvelle : ce ne sera plus qu’une fois toutes
-                          les deux semaines. Rejeté en octobre, ce changement a
-                          finalement été voté jeudi soir 16/16/2021&nbsp; </strong></span></h6>
-                    <h6> </h6>
-                  </blockquote>
-                  <h6> </h6>
-                  <blockquote>
-                    <h6> </h6>
-                  </blockquote>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6><code>18 décembre 2021 </code></h6>
-                    <h6> </h6>
-                  </div>
-                  <h6> </h6>
-                  <h6> <a href="../../blog/annonces/dechets_verts.html" class="btn-link"
-                      target="_blank"> Lire la suite</a> </h6>
-                  <h6> </h6>
-                </div>
-                <h6> </h6>
-              </div>
-              <h6>
-                <!--******************************* -->
-                <!--******************************* --><a href="https://online.slidehtml5.com/nmrs/oqrg/index.html">
-                </a> </h6>
-              <div class="item item-blog media" data-category="annonces">
-                <h6> </h6>
-                <h6> </h6>
-                <h6> </h6>
-                <div class="media-body">
-                  <h6> </h6>
-                  <h6><a href="https://online.slidehtml5.com/nmrs/oqrg/index.html">refuser
-                      la pose d’un compteur pourrait engendrer des frais</a></h6>
-                  <h6> Une fois de plus il s'agit d'une campagne d'intimidation
-                    et de bluff pour que les gens se laissent mettre le Linky...
-                  </h6>
-                  <blockquote>
-                    <h6> </h6>
-                  </blockquote>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6><code>3 décembre 2021 </code></h6>
-                    <h6> </h6>
-                  </div>
-                  <h6> </h6>
-                  <h6> <a href="https://online.slidehtml5.com/nmrs/oqrg/index.html"
-                      class="btn-link" target="_blank"> Lire la suite</a> </h6>
-                  <h6> </h6>
-                </div>
-                <h6> </h6>
-              </div>
-              <h6>
-                <!--******************************* -->
-                <!--******************************* --> </h6>
-              <div class="item item-blog media" data-category="annonces">
-                <h6> </h6>
-                <div class="media-body">
-                  <h6> </h6>
-                  <h6><a href="../../blog/annonces/Envision%20AESC%20Group%20.html">Avis
-                      de concertation préalable<br>
-                    </a></h6>
-                  <h6> </h6>
-                  <h6><a href="../../blog/annonces/Envision%20AESC%20Group%20.html">
-                    </a><span style="font-family: Purisa;">EN APPLICATION DES
-                      ARTICLES L121-1 ET SUIVANTS, NOTAMMENT LE I DE L’ARTICLE
-                      L121-8 DU CODE DE L’ENVIRONNEMENT</span></h6>
-                  <h6> </h6>
-                  <h6><span style="font-family: Purisa;">PROJET D’USINE DE
-                      PRODUCTION DE BATTERIES DANS LE DOUAISIS</span></h6>
-                  <h6> </h6>
-                  <h6><span style="font-family: Purisa;"><br>
-                      (HAUTS-DE-FRANCE)</span></h6>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6><code>21 novembre 2021 </code></h6>
-                    <h6> </h6>
-                  </div>
-                  <h6> </h6>
-                  <h6> <a href="../../blog/annonces/Envision%20AESC%20Group%20.html"
-                      class="btn-link" target="_blank"> Lire la suite</a></h6>
-                  <h6> </h6>
-                  <h6><a href="../../blog/annonces/Envision%20AESC%20Group%20.html"
-                      class="btn-link" target="_blank"><br>
-                    </a> </h6>
-                  <h6> </h6>
-                </div>
-                <h6> </h6>
-              </div>
-              <h6>
-                <!--******************************* -->
-                <!--******************************* --> </h6>
-              <div class="item item-blog media" data-category="annonces">
-                <h6> </h6>
-                <div class="media-body">
-                  <h6> </h6>
-                  <h6><a href="../../blog/annonces/cop26.html">COP26 Le résumé </a></h6>
-                  <h6> <span style="font-family: Kalam;">A l’aube d’une
-                      nouvelle déclaration de la Conférence des Nations Unies
-                      pour le Climat, en son dernier jour, petit rembobinage
-                      pour comprendre les moments clés de cette COP26, qui a
-                      officiellement&nbsp; démarré ce 1er&amp;nbsp;novembre 2021</span>
-                  </h6>
-                  <blockquote>
-                    <h6> </h6>
-                  </blockquote>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6><code>15 novembre 2021 </code></h6>
-                    <h6> </h6>
-                  </div>
-                  <h6> </h6>
-                  <h6> <a href="../../blog/annonces/cop26.html" class="btn-link"
-                      target="_blank"> Lire la suite</a></h6>
-                  <h6> </h6>
-                  <h6><a href="../../blog/annonces/cop26.html" class="btn-link"
-                      target="_blank"><br>
-                    </a> </h6>
-                  <h6> </h6>
-                </div>
-                <h6> </h6>
-              </div>
-              <h6>
-                <!--******************************* -->
-                <!--******************************* --> </h6>
-              <div class="item item-blog media" data-category="annonces">
-                <h6> </h6>
-                <div class="media-body">
-                  <h6> </h6>
-                  <h6><a href="https://online.fliphtml5.com/gvflu/aruy/" target="_blank">Le
-                      Projet de territoire écologique<br>
-                    </a></h6>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6> <a href="https://leforestenvironnement.github.io/annonces.com/medias/images/logo-levert-1.png"
-                        title="Logo levert 1"><img src="https://leforestenvironnement.github.io/annonces.com/medias/images/logo-levert-1.png%3Ffx=c_50_50"
-                          alt="Logo levert 1" height="50" width="50"></a> <a href="https://leforestenvironnement.github.io/annonces.com/medias/images/image-communique-1.png"
-                        title="Image communique 1"><img src="https://leforestenvironnement.github.io/annonces.com/medias/images/image-communique-1.png"
-                          alt="Image communique 1" height="80" width="80"><br>
-                      </a></h6>
-                  </div>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6> </h6>
-                    <h6><a href="https://leforestenvironnement.github.io/annonces.com/medias/images/image-communique-1.png"
-                        title="Image communique 1"><span style="color: black; font-family: Kalam;">Le
-                          conseil communautaire vient d'adopter le Projet de
-                          territoire écologique (PTE). Celui-ci fixe les
-                          objectifs de l'agglo Hénin-Carvin (CAHC) pour les
-                          prochaines années. L'écologie est placée au coeur des
-                          préoccupations, qu'elles&nbsp;soient économiques,
-                          sociales ou politiques. Alors, le Projet de
-                          territoire, qu'est-ce que c'est? A quoi ça sert?....</span><br>
-                      </a></h6>
-                    <h6> </h6>
-                  </div>
-                  <h6> </h6>
-                  <blockquote>
-                    <h6> </h6>
-                  </blockquote>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6><code>30 octobre 2021 </code></h6>
-                    <h6> </h6>
-                  </div>
-                  <h6> </h6>
-                  <h6> <a href="https://online.fliphtml5.com/gvflu/aruy/" class="btn-link"
-                      target="_blank"> Lire la suite</a></h6>
-                  <h6> </h6>
-                  <h6><a href="https://online.fliphtml5.com/gvflu/aruy/" class="btn-link"
-                      target="_blank"><br>
-                    </a> </h6>
-                  <h6> </h6>
-                </div>
-                <h6> </h6>
-              </div>
-              <h6>
-                <!--******************************* -->
-                <!--******************************* --> </h6>
-              <div class="item item-blog media" data-category="annonces">
-                <h6> </h6>
-                <div class="media-body">
-                  <h6> </h6>
-                  <h6><a href="../../blog/annonces/dechets%20verts.html">Les
-                      déchets verts<br>
-                    </a></h6>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6> <a href="https://leforestenvironnement.github.io/annonces.com/medias/images/logo-levert-1.png"
-                        title="Logo levert 1"><img src="https://leforestenvironnement.github.io/annonces.com/medias/images/logo-levert-1.png%3Ffx=c_50_50"
-                          alt="Logo levert 1" height="50" width="50"></a> <a href="https://leforestenvironnement.github.io/annonces.com/medias/images/image-communique-1.png"
-                        title="Image communique 1"><img src="https://leforestenvironnement.github.io/annonces.com/medias/images/image-communique-1.png"
-                          alt="Image communique 1" height="80" width="80"><br>
-                      </a></h6>
-                  </div>
-                  <h6> </h6>
-                  <blockquote>
+                    <blockquote>
+                      <h6> </h6>
+                    </blockquote>
                     <h6> </h6>
                     <div class="clearfix">
-                      <h6>Peut-on brûler des déchets verts dans son jardin
-                        (feuilles, branches, ...) ?</h6>
+                      <h6><code>18 décembre 2021 </code></h6>
+                      <h6> </h6>
+                    </div>
+                    <h6> </h6>
+                    <h6> <a href="dechets_verts.html" class="btn-link" target="_blank">
+                        Lire la suite</a> </h6>
+                    <h6> </h6>
+                  </div>
+                  <h6> </h6>
+                </div>
+                <h6>
+                  <!--******************************* -->
+                  <!--******************************* --><a href="https://online.slidehtml5.com/nmrs/oqrg/index.html">
+                  </a> </h6>
+                <div class="item item-blog media" data-category="annonces">
+                  <h6> </h6>
+                  <h6> </h6>
+                  <h6> </h6>
+                  <div class="media-body">
+                    <h6> </h6>
+                    <h6><a href="https://online.slidehtml5.com/nmrs/oqrg/index.html">refuser
+                        la pose d’un compteur pourrait engendrer des frais</a></h6>
+                    <h6> Une fois de plus il s'agit d'une campagne
+                      d'intimidation et de bluff pour que les gens se laissent
+                      mettre le Linky... </h6>
+                    <blockquote>
+                      <h6> </h6>
+                    </blockquote>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6><code>3 décembre 2021 </code></h6>
+                      <h6> </h6>
+                    </div>
+                    <h6> </h6>
+                    <h6> <a href="https://online.slidehtml5.com/nmrs/oqrg/index.html"
+                        class="btn-link" target="_blank"> Lire la suite</a> </h6>
+                    <h6> </h6>
+                  </div>
+                  <h6> </h6>
+                </div>
+                <h6>
+                  <!--******************************* -->
+                  <!--******************************* --> </h6>
+                <div class="item item-blog media" data-category="annonces">
+                  <h6> </h6>
+                  <div class="media-body">
+                    <h6> </h6>
+                    <h6><a href="Envision%20AESC%20Group%20.html">Avis de
+                        concertation préalable<br>
+                      </a></h6>
+                    <h6> </h6>
+                    <h6><a href="Envision%20AESC%20Group%20.html"> </a><span style="font-family: Purisa;">EN
+                        APPLICATION DES ARTICLES L121-1 ET SUIVANTS, NOTAMMENT
+                        LE I DE L’ARTICLE L121-8 DU CODE DE L’ENVIRONNEMENT</span></h6>
+                    <h6> </h6>
+                    <h6><span style="font-family: Purisa;">PROJET D’USINE DE
+                        PRODUCTION DE BATTERIES DANS LE DOUAISIS</span></h6>
+                    <h6> </h6>
+                    <h6><span style="font-family: Purisa;"><br>
+                        (HAUTS-DE-FRANCE)</span></h6>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6><code>21 novembre 2021 </code></h6>
+                      <h6> </h6>
+                    </div>
+                    <h6> </h6>
+                    <h6> <a href="Envision%20AESC%20Group%20.html" class="btn-link"
+                        target="_blank"> Lire la suite</a></h6>
+                    <h6> </h6>
+                    <h6><a href="Envision%20AESC%20Group%20.html" class="btn-link"
+                        target="_blank"><br>
+                      </a> </h6>
+                    <h6> </h6>
+                  </div>
+                  <h6> </h6>
+                </div>
+                <h6>
+                  <!--******************************* -->
+                  <!--******************************* --> </h6>
+                <div class="item item-blog media" data-category="annonces">
+                  <h6> </h6>
+                  <div class="media-body">
+                    <h6> </h6>
+                    <h6><a href="cop26.html">COP26 Le résumé </a></h6>
+                    <h6> <span style="font-family: Kalam;">A l’aube d’une
+                        nouvelle déclaration de la Conférence des Nations Unies
+                        pour le Climat, en son dernier jour, petit rembobinage
+                        pour comprendre les moments clés de cette COP26, qui a
+                        officiellement&nbsp; démarré ce 1er&amp;nbsp;novembre
+                        2021</span> </h6>
+                    <blockquote>
+                      <h6> </h6>
+                    </blockquote>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6><code>15 novembre 2021 </code></h6>
+                      <h6> </h6>
+                    </div>
+                    <h6> </h6>
+                    <h6> <a href="cop26.html" class="btn-link" target="_blank">
+                        Lire la suite</a></h6>
+                    <h6> </h6>
+                    <h6><a href="cop26.html" class="btn-link" target="_blank"><br>
+                      </a> </h6>
+                    <h6> </h6>
+                  </div>
+                  <h6> </h6>
+                </div>
+                <h6>
+                  <!--******************************* -->
+                  <!--******************************* --> </h6>
+                <div class="item item-blog media" data-category="annonces">
+                  <h6> </h6>
+                  <div class="media-body">
+                    <h6> </h6>
+                    <h6><a href="https://online.fliphtml5.com/gvflu/aruy/" target="_blank">Le
+                        Projet de territoire écologique<br>
+                      </a></h6>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6> <a href="../../medias/images/logo-levert-1.png" title="Logo levert 1"><img
+                            src="../../medias/images/logo-levert-1.png%3Ffx=c_50_50"
+                            alt="Logo levert 1" height="50" width="50"></a> <a
+                          href="../../medias/images/image-communique-1.png" title="Image communique 1"><img
+                            src="../../medias/images/image-communique-1.png" alt="Image communique 1"
+                            height="80" width="80"><br>
+                        </a></h6>
                     </div>
                     <h6> </h6>
                     <div class="clearfix">
-                      <h6>collecte d'été et d'hiver</h6>
+                      <h6> </h6>
+                      <h6><a href="../../medias/images/image-communique-1.png" title="Image communique 1"><span
+                            style="color: black; font-family: Kalam;">Le conseil
+                            communautaire vient d'adopter le Projet de
+                            territoire écologique (PTE). Celui-ci fixe les
+                            objectifs de l'agglo Hénin-Carvin (CAHC) pour les
+                            prochaines années. L'écologie est placée au coeur
+                            des préoccupations, qu'elles&nbsp;soient
+                            économiques, sociales ou politiques. Alors, le
+                            Projet de territoire, qu'est-ce que c'est? A quoi ça
+                            sert?....</span><br>
+                        </a></h6>
+                      <h6> </h6>
                     </div>
+                    <h6> </h6>
+                    <blockquote>
+                      <h6> </h6>
+                    </blockquote>
                     <h6> </h6>
                     <div class="clearfix">
-                      <h6>dans les diverses communautés d'agglomération</h6>
+                      <h6><code>30 octobre 2021 </code></h6>
+                      <h6> </h6>
                     </div>
                     <h6> </h6>
-                  </blockquote>
-                  <h6> </h6>
-                  <div class="clearfix">
-                    <h6><code>17 octobre 2021 <br>
-                      </code></h6>
-                  </div>
-                  <h6> </h6>
-                  <h6> <a href="../../blog/annonces/dechets%20verts.html" class="btn-link"
-                      target="_blank"> Lire la suite</a></h6>
-                  <h6> </h6>
-                </div>
-                <h6> </h6>
-              </div>
-              <h6>
-                <!--******************************* --> </h6>
-            </div>
-            <div class="row-fluid">
-              <h6> </h6>
-              <div class="span9 content" id="content-area" style="height:150px">
-                <h6> </h6>
-                <div class="view view-blog" id="view-category" data-category="annonces">
-                  <h6> </h6>
-                  <div class="introduction clearfix">
+                    <h6> <a href="https://online.fliphtml5.com/gvflu/aruy/" class="btn-link"
+                        target="_blank"> Lire la suite</a></h6>
+                    <h6> </h6>
+                    <h6><a href="https://online.fliphtml5.com/gvflu/aruy/" class="btn-link"
+                        target="_blank"><br>
+                      </a> </h6>
                     <h6> </h6>
                   </div>
                   <h6> </h6>
-                  <div class="items-container" style="height:auto">
-                    <h6><br>
-                    </h6>
+                </div>
+                <h6>
+                  <!--******************************* -->
+                  <!--******************************* --> </h6>
+                <div class="item item-blog media" data-category="annonces">
+                  <h6> </h6>
+                  <div class="media-body">
+                    <h6> </h6>
+                    <h6><a href="dechets%20verts.html">Les déchets verts<br>
+                      </a></h6>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6> <a href="../../medias/images/logo-levert-1.png" title="Logo levert 1"><img
+                            src="../../medias/images/logo-levert-1.png%3Ffx=c_50_50"
+                            alt="Logo levert 1" height="50" width="50"></a> <a
+                          href="../../medias/images/image-communique-1.png" title="Image communique 1"><img
+                            src="../../medias/images/image-communique-1.png" alt="Image communique 1"
+                            height="80" width="80"><br>
+                        </a></h6>
+                    </div>
+                    <h6> </h6>
+                    <blockquote>
+                      <h6> </h6>
+                      <div class="clearfix">
+                        <h6>Peut-on brûler des déchets verts dans son jardin
+                          (feuilles, branches, ...) ?</h6>
+                      </div>
+                      <h6> </h6>
+                      <div class="clearfix">
+                        <h6>collecte d'été et d'hiver</h6>
+                      </div>
+                      <h6> </h6>
+                      <div class="clearfix">
+                        <h6>dans les diverses communautés d'agglomération</h6>
+                      </div>
+                      <h6> </h6>
+                    </blockquote>
+                    <h6> </h6>
+                    <div class="clearfix">
+                      <h6><code>17 octobre 2021 <br>
+                        </code></h6>
+                    </div>
+                    <h6> </h6>
+                    <h6> <a href="dechets%20verts.html" class="btn-link" target="_blank">
+                        Lire la suite</a></h6>
+                    <h6> </h6>
+                  </div>
+                  <h6> </h6>
+                </div>
+                <h6>
+                  <!--******************************* --> </h6>
+              </div>
+              <div class="row-fluid">
+                <h6> </h6>
+                <div class="span9 content" id="content-area" style="height:150px">
+                  <h6> </h6>
+                  <div class="view view-blog" id="view-category" data-category="annonces">
+                    <h6> </h6>
+                    <div class="introduction clearfix">
+                      <h6> </h6>
+                    </div>
+                    <h6> </h6>
+                    <div class="items-container" style="height:auto">
+                      <h6><br>
+                      </h6>
+                    </div>
+                    <h6> </h6>
                   </div>
                   <h6> </h6>
                 </div>
@@ -1791,7 +1580,6 @@ La carte Adonis a pour ambition de porter à la connaissance de tous les donnée
               </div>
               <h6> </h6>
             </div>
-            <h6> </h6>
           </div>
         </div>
       </div>
